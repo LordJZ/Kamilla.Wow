@@ -261,6 +261,8 @@
     <Compile Include="Parsers\Misc\InspectResultsParser.cs" />
     <Compile Include="Parsers\Misc\InstanceInfoParser.cs" />
     <Compile Include="Parsers\Misc\LootResponseParser.cs" />
+    <Compile Include="Parsers\Misc\RandomizeNameParser.cs" />
+    <Compile Include="Parsers\Misc\RandomizeNameResultParser.cs" />
     <Compile Include="Parsers\Misc\PetRenameParser.cs" />
     <Compile Include="Parsers\Misc\ReferAFriendFailureParser.cs" />
     <Compile Include="Parsers\Misc\ResearchHistoryParser.cs" />
