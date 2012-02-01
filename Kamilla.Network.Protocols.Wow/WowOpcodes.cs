@@ -61,11 +61,11 @@ namespace Kamilla.Network.Protocols.Wow
         CMSG_AUTH_SRP6_PROOF                            = UNKNOWN_OPCODE, /* old 0x034, */
         CMSG_AUTH_SRP6_RECODE                           = UNKNOWN_OPCODE, /* old 0x035, */
         CMSG_CHAR_CREATE                                = UNKNOWN_OPCODE, /* old 0x036, */
-        CMSG_ENUM_CHARACTERS                                  = UNKNOWN_OPCODE, /* old 0x037, */
+        CMSG_ENUM_CHARACTERS                            = 16465, /* old 0x037, */
         CMSG_CHAR_DELETE                                = UNKNOWN_OPCODE, /* old 0x038, */
         SMSG_AUTH_SRP6_RESPONSE                         = UNKNOWN_OPCODE, /* old 0x039, */
         SMSG_CHAR_CREATE                                = UNKNOWN_OPCODE, /* old 0x03A, */
-        SMSG_ENUM_CHARACTERS_RESULT                     = UNKNOWN_OPCODE, /* old 0x03B, */
+        SMSG_ENUM_CHARACTERS_RESULT                     = 3317, /* old 0x03B, */
         SMSG_CHAR_DELETE                                = UNKNOWN_OPCODE, /* old 0x03C, */
         CMSG_PLAYER_LOGIN                               = UNKNOWN_OPCODE, /* old 0x03D, */
         SMSG_NEW_WORLD                                  = UNKNOWN_OPCODE, /* old 0x03E, */
@@ -451,11 +451,11 @@ namespace Kamilla.Network.Protocols.Wow
         SMSG_ITEM_TIME_UPDATE                           = UNKNOWN_OPCODE, /* old 0x1EA, */
         SMSG_ITEM_ENCHANT_TIME_UPDATE                   = UNKNOWN_OPCODE, /* old 0x1EB, */
         [Description("Sent by server when a connection is initialized (after HELLO packet since 4.1.0). Contains 8-bit count, 32-bit seed, two 128 bit encryption seeds. Exact structure is version-dependent since Cataclysm. This packet is not encrypted.")]
-        SMSG_AUTH_CHALLENGE                             = UNKNOWN_OPCODE, /* old 0x1EC, */
+        SMSG_AUTH_CHALLENGE                             = 297, /* old 0x1EC, */
         [Description("Client's reply to SMSG_AUTH_CHALLENGE on first connection. Contains client build value, account name, compressed addon data, etc. This packet is not encrypted.")]
         CMSG_AUTH_SESSION                               = UNKNOWN_OPCODE, /* old 0x1ED, */
         [Description("Server's reply to CMSG_AUTH_SESSION. Contains billing time, billing flags, account expansion, server expansion (since Cataclysm).")]
-        SMSG_AUTH_RESPONSE                              = UNKNOWN_OPCODE, /* old 0x1EE, */
+        SMSG_AUTH_RESPONSE                              = 3668, /* old 0x1EE, */
         MSG_GM_SHOWLABEL                                = UNKNOWN_OPCODE, /* old 0x1EF, */
         CMSG_PET_CAST_SPELL                             = UNKNOWN_OPCODE, /* old 0x1F0, */
         MSG_SAVE_GUILD_EMBLEM                           = UNKNOWN_OPCODE, /* old 0x1F1, */
@@ -1216,7 +1216,7 @@ namespace Kamilla.Network.Protocols.Wow
         SMSG_LOOT_UPDATE                                = UNKNOWN_OPCODE, /* old 0x4FD, */
         UMSG_UPDATE_GROUP_INFO                          = UNKNOWN_OPCODE, /* old 0x4FE, */
         [Description("Sent after SMSG_AUTH_RESPONSE.")]
-        CMSG_READY_FOR_ACCOUNT_DATA_TIMES               = UNKNOWN_OPCODE, /* old 0x4FF, */
+        CMSG_READY_FOR_ACCOUNT_DATA_TIMES               = 17707, /* old 0x4FF, */
         [Description("lua: QueryQuestsCompleted")]
         CMSG_QUERY_GET_ALL_QUESTS                       = UNKNOWN_OPCODE, /* old 0x500, */
         [Description("response to CMSG_QUERY_GET_ALL_QUESTS")]
