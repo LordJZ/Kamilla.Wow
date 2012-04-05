@@ -73,7 +73,7 @@ namespace Kamilla.Network.Protocols.Wow.Game
 
         static readonly HighInfo[] s_typeValuePairs = new HighInfo[]
         {
-            new HighInfo(WowGuidType.Item,          WowGuidKind.Item,           0xF0F, 0x400, 0x400),   // Confirmed check
+            new HighInfo(WowGuidType.Item,          WowGuidKind.Item,           0xF00, 0x400, 0x400),   // Confirmed check: 0xF0F&a == 0x400
             new HighInfo(WowGuidType.Player,        WowGuidKind.Player,         0xF00, 0x000, 0x000),   // Confirmed check (also checks for lesser 55 bits to be non-zero)
             new HighInfo(WowGuidType.GameObject,    WowGuidKind.GameObject,     0xF0F, 0xF01, 0xF11),
             new HighInfo(WowGuidType.Transport,     WowGuidKind.GameObject,     0xF0F, 0xF02, 0xF12),
