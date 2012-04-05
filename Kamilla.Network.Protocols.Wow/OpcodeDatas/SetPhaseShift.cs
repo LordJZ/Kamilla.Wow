@@ -75,7 +75,7 @@ namespace Kamilla.Network.Protocols.Wow.OpcodeDatas
                 {
                     builder.Append("Maps: ");
                     for (int j = 0; j < arr.Length; j += 2)
-                        builder.Append((Maps)BitConverter.ToUInt16(arr, j)).Append(j == arr.Length - 2 ? "" : ", ");
+                        builder.Append(((Maps)BitConverter.ToUInt16(arr, j)).GetLocalizedName()).Append(j == arr.Length - 2 ? "" : ", ");
                     builder.AppendLine();
                 }
                 else

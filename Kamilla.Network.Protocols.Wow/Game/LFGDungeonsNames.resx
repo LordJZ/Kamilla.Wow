@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+    <data name="Dungeon1" xml:space="preserve">
+      <value>Wailing Caverns</value>
+    </data>
+    <data name="Dungeon2" xml:space="preserve">
+      <value>Scholomance</value>
+    </data>
+    <data name="Dungeon4" xml:space="preserve">
+      <value>Ragefire Chasm</value>
+    </data>
+    <data name="Dungeon6" xml:space="preserve">
+      <value>Deadmines</value>
+    </data>
+    <data name="Dungeon8" xml:space="preserve">
+      <value>Shadowfang Keep</value>
+    </data>
+    <data name="Dungeon10" xml:space="preserve">
+      <value>Blackfathom Deeps</value>
+    </data>
+    <data name="Dungeon12" xml:space="preserve">
+      <value>Stormwind Stockade</value>
+    </data>
+    <data name="Dungeon14" xml:space="preserve">
+      <value>Gnomeregan</value>
+    </data>
+    <data name="Dungeon16" xml:space="preserve">
+      <value>Razorfen Kraul</value>
+    </data>
+    <data name="Dungeon18" xml:space="preserve">
+      <value>Scarlet Monastery - Graveyard</value>
+    </data>
+    <data name="Dungeon20" xml:space="preserve">
+      <value>Razorfen Downs</value>
+    </data>
+    <data name="Dungeon22" xml:space="preserve">
+      <value>Uldaman</value>
+    </data>
+    <data name="Dungeon24" xml:space="preserve">
+      <value>Zul'Farrak</value>
+    </data>
+    <data name="Dungeon26" xml:space="preserve">
+      <value>Maraudon - Foulspore Cavern</value>
+    </data>
+    <data name="Dungeon28" xml:space="preserve">
+      <value>Sunken Temple</value>
+    </data>
+    <data name="Dungeon30" xml:space="preserve">
+      <value>Blackrock Depths - Detention Block</value>
+    </data>
+    <data name="Dungeon32" xml:space="preserve">
+      <value>Lower Blackrock Spire</value>
+    </data>
+    <data name="Dungeon34" xml:space="preserve">
+      <value>Dire Maul - Warpwood Quarter</value>
+    </data>
+    <data name="Dungeon36" xml:space="preserve">
+      <value>Dire Maul - Capital Gardens</value>
+    </data>
+    <data name="Dungeon38" xml:space="preserve">
+      <value>Dire Maul - Gordok Commons</value>
+    </data>
+    <data name="Dungeon40" xml:space="preserve">
+      <value>Stratholme - Main Gate</value>
+    </data>
+    <data name="Dungeon136" xml:space="preserve">
+      <value>Hellfire Ramparts (Normal)</value>
+    </data>
+    <data name="Dungeon137" xml:space="preserve">
+      <value>Blood Furnace (Normal)</value>
+    </data>
+    <data name="Dungeon138" xml:space="preserve">
+      <value>Shattered Halls (Normal)</value>
+    </data>
+    <data name="Dungeon140" xml:space="preserve">
+      <value>Slave Pens (Normal)</value>
+    </data>
+    <data name="Dungeon146" xml:space="preserve">
+      <value>Underbog (Normal)</value>
+    </data>
+    <data name="Dungeon147" xml:space="preserve">
+      <value>The Steamvault (Normal)</value>
+    </data>
+    <data name="Dungeon148" xml:space="preserve">
+      <value>Mana-Tombs (Normal)</value>
+    </data>
+    <data name="Dungeon149" xml:space="preserve">
+      <value>Auchenai Crypts (Normal)</value>
+    </data>
+    <data name="Dungeon150" xml:space="preserve">
+      <value>Sethekk Halls (Normal)</value>
+    </data>
+    <data name="Dungeon151" xml:space="preserve">
+      <value>Shadow Labyrinth (Normal)</value>
+    </data>
+    <data name="Dungeon163" xml:space="preserve">
+      <value>Scarlet Monastery - Armory</value>
+    </data>
+    <data name="Dungeon164" xml:space="preserve">
+      <value>Scarlet Monastery - Cathedral</value>
+    </data>
+    <data name="Dungeon165" xml:space="preserve">
+      <value>Scarlet Monastery - Library</value>
+    </data>
+    <data name="Dungeon170" xml:space="preserve">
+      <value>The Escape From Durnholde (Normal)</value>
+    </data>
+    <data name="Dungeon171" xml:space="preserve">
+      <value>Opening of the Dark Portal (Normal)</value>
+    </data>
+    <data name="Dungeon172" xml:space="preserve">
+      <value>The Mechanar (Normal)</value>
+    </data>
+    <data name="Dungeon173" xml:space="preserve">
+      <value>The Botanica (Normal)</value>
+    </data>
+    <data name="Dungeon174" xml:space="preserve">
+      <value>The Arcatraz (Normal)</value>
+    </data>
+    <data name="Dungeon178" xml:space="preserve">
+      <value>Auchenai Crypts (Heroic)</value>
+    </data>
+    <data name="Dungeon179" xml:space="preserve">
+      <value>Mana-Tombs (Heroic)</value>
+    </data>
+    <data name="Dungeon180" xml:space="preserve">
+      <value>Sethekk Halls (Heroic)</value>
+    </data>
+    <data name="Dungeon181" xml:space="preserve">
+      <value>Shadow Labyrinth (Heroic)</value>
+    </data>
+    <data name="Dungeon182" xml:space="preserve">
+      <value>Opening of the Dark Portal (Heroic)</value>
+    </data>
+    <data name="Dungeon183" xml:space="preserve">
+      <value>The Escape From Durnholde (Heroic)</value>
+    </data>
+    <data name="Dungeon184" xml:space="preserve">
+      <value>Slave Pens (Heroic)</value>
+    </data>
+    <data name="Dungeon185" xml:space="preserve">
+      <value>The Steamvault (Heroic)</value>
+    </data>
+    <data name="Dungeon186" xml:space="preserve">
+      <value>Underbog (Heroic)</value>
+    </data>
+    <data name="Dungeon187" xml:space="preserve">
+      <value>Blood Furnace (Heroic)</value>
+    </data>
+    <data name="Dungeon188" xml:space="preserve">
+      <value>Hellfire Ramparts (Heroic)</value>
+    </data>
+    <data name="Dungeon189" xml:space="preserve">
+      <value>Shattered Halls (Heroic)</value>
+    </data>
+    <data name="Dungeon190" xml:space="preserve">
+      <value>The Arcatraz (Heroic)</value>
+    </data>
+    <data name="Dungeon191" xml:space="preserve">
+      <value>The Botanica (Heroic)</value>
+    </data>
+    <data name="Dungeon192" xml:space="preserve">
+      <value>The Mechanar (Heroic)</value>
+    </data>
+    <data name="Dungeon198" xml:space="preserve">
+      <value>Magisters' Terrace (Normal)</value>
+    </data>
+    <data name="Dungeon201" xml:space="preserve">
+      <value>Magisters' Terrace (Heroic)</value>
+    </data>
+    <data name="Dungeon202" xml:space="preserve">
+      <value>Utgarde Keep (Normal)</value>
+    </data>
+    <data name="Dungeon203" xml:space="preserve">
+      <value>Utgarde Pinnacle (Normal)</value>
+    </data>
+    <data name="Dungeon204" xml:space="preserve">
+      <value>Azjol-Nerub (Normal)</value>
+    </data>
+    <data name="Dungeon205" xml:space="preserve">
+      <value>Utgarde Pinnacle (Heroic)</value>
+    </data>
+    <data name="Dungeon206" xml:space="preserve">
+      <value>The Oculus (Normal)</value>
+    </data>
+    <data name="Dungeon207" xml:space="preserve">
+      <value>Halls of Lightning (Normal)</value>
+    </data>
+    <data name="Dungeon208" xml:space="preserve">
+      <value>Halls of Stone (Normal)</value>
+    </data>
+    <data name="Dungeon209" xml:space="preserve">
+      <value>The Culling of Stratholme (Normal)</value>
+    </data>
+    <data name="Dungeon210" xml:space="preserve">
+      <value>The Culling of Stratholme (Heroic)</value>
+    </data>
+    <data name="Dungeon211" xml:space="preserve">
+      <value>The Oculus (Heroic)</value>
+    </data>
+    <data name="Dungeon212" xml:space="preserve">
+      <value>Halls of Lightning (Heroic)</value>
+    </data>
+    <data name="Dungeon213" xml:space="preserve">
+      <value>Halls of Stone (Heroic)</value>
+    </data>
+    <data name="Dungeon214" xml:space="preserve">
+      <value>Drak'Tharon Keep (Normal)</value>
+    </data>
+    <data name="Dungeon215" xml:space="preserve">
+      <value>Drak'Tharon Keep (Heroic)</value>
+    </data>
+    <data name="Dungeon216" xml:space="preserve">
+      <value>Gundrak (Normal)</value>
+    </data>
+    <data name="Dungeon217" xml:space="preserve">
+      <value>Gundrak (Heroic)</value>
+    </data>
+    <data name="Dungeon218" xml:space="preserve">
+      <value>Ahn'kahet: The Old Kingdom (Normal)</value>
+    </data>
+    <data name="Dungeon219" xml:space="preserve">
+      <value>Ahn'kahet: The Old Kingdom (Heroic)</value>
+    </data>
+    <data name="Dungeon220" xml:space="preserve">
+      <value>Violet Hold (Normal)</value>
+    </data>
+    <data name="Dungeon221" xml:space="preserve">
+      <value>Violet Hold (Heroic)</value>
+    </data>
+    <data name="Dungeon225" xml:space="preserve">
+      <value>The Nexus (Normal)</value>
+    </data>
+    <data name="Dungeon226" xml:space="preserve">
+      <value>The Nexus (Heroic)</value>
+    </data>
+    <data name="Dungeon241" xml:space="preserve">
+      <value>Azjol-Nerub (Heroic)</value>
+    </data>
+    <data name="Dungeon242" xml:space="preserve">
+      <value>Utgarde Keep (Heroic)</value>
+    </data>
+    <data name="Dungeon245" xml:space="preserve">
+      <value>Trial of the Champion (Normal)</value>
+    </data>
+    <data name="Dungeon249" xml:space="preserve">
+      <value>Trial of the Champion (Heroic)</value>
+    </data>
+    <data name="Dungeon251" xml:space="preserve">
+      <value>The Forge of Souls (Normal)</value>
+    </data>
+    <data name="Dungeon252" xml:space="preserve">
+      <value>The Forge of Souls (Heroic)</value>
+    </data>
+    <data name="Dungeon253" xml:space="preserve">
+      <value>Pit of Saron (Normal)</value>
+    </data>
+    <data name="Dungeon254" xml:space="preserve">
+      <value>Pit of Saron (Heroic)</value>
+    </data>
+    <data name="Dungeon255" xml:space="preserve">
+      <value>Halls of Reflection (Normal)</value>
+    </data>
+    <data name="Dungeon256" xml:space="preserve">
+      <value>Halls of Reflection (Heroic)</value>
+    </data>
+    <data name="Dungeon272" xml:space="preserve">
+      <value>Maraudon - The Wicked Grotto</value>
+    </data>
+    <data name="Dungeon273" xml:space="preserve">
+      <value>Maraudon - Earth Song Falls</value>
+    </data>
+    <data name="Dungeon274" xml:space="preserve">
+      <value>Stratholme - Service Entrance</value>
+    </data>
+    <data name="Dungeon276" xml:space="preserve">
+      <value>Blackrock Depths - Upper City</value>
+    </data>
+    <data name="Dungeon285" xml:space="preserve">
+      <value>The Headless Horseman</value>
+    </data>
+    <data name="Dungeon286" xml:space="preserve">
+      <value>The Frost Lord Ahune</value>
+    </data>
+    <data name="Dungeon287" xml:space="preserve">
+      <value>Coren Direbrew</value>
+    </data>
+    <data name="Dungeon288" xml:space="preserve">
+      <value>The Crown Chemical Co.</value>
+    </data>
+    <data name="Dungeon296" xml:space="preserve">
+      <value>Grand Ambassador Flamelash</value>
+    </data>
+    <data name="Dungeon297" xml:space="preserve">
+      <value>Crown Princess Theradras</value>
+    </data>
+    <data name="Dungeon298" xml:space="preserve">
+      <value>Kai'ju Gahz'rilla</value>
+    </data>
+    <data name="Dungeon299" xml:space="preserve">
+      <value>Prince Sarsarun</value>
+    </data>
+    <data name="Dungeon302" xml:space="preserve">
+      <value>Throne of the Tides (Normal)</value>
+    </data>
+    <data name="Dungeon303" xml:space="preserve">
+      <value>Blackrock Caverns (Normal)</value>
+    </data>
+    <data name="Dungeon304" xml:space="preserve">
+      <value>Grim Batol (Normal)</value>
+    </data>
+    <data name="Dungeon305" xml:space="preserve">
+      <value>Halls of Origination (Normal)</value>
+    </data>
+    <data name="Dungeon306" xml:space="preserve">
+      <value>Kai'ju Gahz'rilla</value>
+    </data>
+    <data name="Dungeon307" xml:space="preserve">
+      <value>The Stonecore (Normal)</value>
+    </data>
+    <data name="Dungeon308" xml:space="preserve">
+      <value>Grand Ambassador Flamelash</value>
+    </data>
+    <data name="Dungeon309" xml:space="preserve">
+      <value>Crown Princess Theradras</value>
+    </data>
+    <data name="Dungeon310" xml:space="preserve">
+      <value>Prince Sarsarun</value>
+    </data>
+    <data name="Dungeon311" xml:space="preserve">
+      <value>The Vortex Pinnacle (Normal)</value>
+    </data>
+    <data name="Dungeon312" xml:space="preserve">
+      <value>Lost City of the Tol'vir (Normal)</value>
+    </data>
+    <data name="Dungeon319" xml:space="preserve">
+      <value>The Vortex Pinnacle (Heroic)</value>
+    </data>
+    <data name="Dungeon320" xml:space="preserve">
+      <value>The Stonecore (Heroic)</value>
+    </data>
+    <data name="Dungeon321" xml:space="preserve">
+      <value>Halls of Origination (Heroic)</value>
+    </data>
+    <data name="Dungeon322" xml:space="preserve">
+      <value>Grim Batol (Heroic)</value>
+    </data>
+    <data name="Dungeon323" xml:space="preserve">
+      <value>Blackrock Caverns (Heroic)</value>
+    </data>
+    <data name="Dungeon324" xml:space="preserve">
+      <value>Throne of the Tides (Heroic)</value>
+    </data>
+    <data name="Dungeon325" xml:space="preserve">
+      <value>Lost City of the Tol'vir (Heroic)</value>
+    </data>
+    <data name="Dungeon326" xml:space="preserve">
+      <value>Deadmines (Heroic)</value>
+    </data>
+    <data name="Dungeon327" xml:space="preserve">
+      <value>Shadowfang Keep (Heroic)</value>
+    </data>
+    <data name="Dungeon330" xml:space="preserve">
+      <value>Upper Blackrock Spire</value>
+    </data>
+    <data name="Dungeon334" xml:space="preserve">
+      <value>Zul'Gurub (Heroic)</value>
+    </data>
+    <data name="Dungeon340" xml:space="preserve">
+      <value>Zul'Aman (Heroic)</value>
+    </data>
+    <data name="Dungeon416" xml:space="preserve">
+      <value>The Siege of Wyrmrest Temple</value>
+    </data>
+    <data name="Dungeon417" xml:space="preserve">
+      <value>Fall of Deathwing</value>
+    </data>
+    <data name="Dungeon435" xml:space="preserve">
+      <value>End Time (Heroic)</value>
+    </data>
+    <data name="Dungeon437" xml:space="preserve">
+      <value>Well of Eternity (Heroic)</value>
+    </data>
+    <data name="Dungeon439" xml:space="preserve">
+      <value>Hour of Twilight (Heroic)</value>
+    </data>
+    <data name="Dungeon46" xml:space="preserve">
+      <value>Onyxia's Lair (10)</value>
+    </data>
+    <data name="Dungeon48" xml:space="preserve">
+      <value>Molten Core</value>
+    </data>
+    <data name="Dungeon50" xml:space="preserve">
+      <value>Blackwing Lair</value>
+    </data>
+    <data name="Dungeon159" xml:space="preserve">
+      <value>Naxxramas (10)</value>
+    </data>
+    <data name="Dungeon160" xml:space="preserve">
+      <value>Ahn'Qiraj Ruins</value>
+    </data>
+    <data name="Dungeon161" xml:space="preserve">
+      <value>Ahn'Qiraj Temple</value>
+    </data>
+    <data name="Dungeon175" xml:space="preserve">
+      <value>Karazhan</value>
+    </data>
+    <data name="Dungeon176" xml:space="preserve">
+      <value>Magtheridon's Lair</value>
+    </data>
+    <data name="Dungeon177" xml:space="preserve">
+      <value>Gruul's Lair</value>
+    </data>
+    <data name="Dungeon193" xml:space="preserve">
+      <value>Tempest Keep</value>
+    </data>
+    <data name="Dungeon194" xml:space="preserve">
+      <value>Serpentshrine Cavern</value>
+    </data>
+    <data name="Dungeon195" xml:space="preserve">
+      <value>Hyjal Past</value>
+    </data>
+    <data name="Dungeon196" xml:space="preserve">
+      <value>Black Temple</value>
+    </data>
+    <data name="Dungeon199" xml:space="preserve">
+      <value>The Sunwell</value>
+    </data>
+    <data name="Dungeon223" xml:space="preserve">
+      <value>The Eye of Eternity (10)</value>
+    </data>
+    <data name="Dungeon224" xml:space="preserve">
+      <value>The Obsidian Sanctum (10)</value>
+    </data>
+    <data name="Dungeon227" xml:space="preserve">
+      <value>Naxxramas (25)</value>
+    </data>
+    <data name="Dungeon237" xml:space="preserve">
+      <value>The Eye of Eternity (25)</value>
+    </data>
+    <data name="Dungeon238" xml:space="preserve">
+      <value>The Obsidian Sanctum (25)</value>
+    </data>
+    <data name="Dungeon239" xml:space="preserve">
+      <value>Vault of Archavon (10)</value>
+    </data>
+    <data name="Dungeon240" xml:space="preserve">
+      <value>Vault of Archavon (25)</value>
+    </data>
+    <data name="Dungeon243" xml:space="preserve">
+      <value>Ulduar (10)</value>
+    </data>
+    <data name="Dungeon244" xml:space="preserve">
+      <value>Ulduar (25)</value>
+    </data>
+    <data name="Dungeon246" xml:space="preserve">
+      <value>Trial of the Crusader (10)</value>
+    </data>
+    <data name="Dungeon247" xml:space="preserve">
+      <value>Trial of the Grand Crusader (10)</value>
+    </data>
+    <data name="Dungeon248" xml:space="preserve">
+      <value>Trial of the Crusader (25)</value>
+    </data>
+    <data name="Dungeon250" xml:space="preserve">
+      <value>Trial of the Grand Crusader (25)</value>
+    </data>
+    <data name="Dungeon257" xml:space="preserve">
+      <value>Onyxia's Lair (25)</value>
+    </data>
+    <data name="Dungeon279" xml:space="preserve">
+      <value>Icecrown Citadel (10)</value>
+    </data>
+    <data name="Dungeon280" xml:space="preserve">
+      <value>Icecrown Citadel (25)</value>
+    </data>
+    <data name="Dungeon293" xml:space="preserve">
+      <value>Ruby Sanctum (10)</value>
+    </data>
+    <data name="Dungeon294" xml:space="preserve">
+      <value>Ruby Sanctum (25)</value>
+    </data>
+    <data name="Dungeon313" xml:space="preserve">
+      <value>Blackwing Descent (10)</value>
+    </data>
+    <data name="Dungeon314" xml:space="preserve">
+      <value>Blackwing Descent (25)</value>
+    </data>
+    <data name="Dungeon315" xml:space="preserve">
+      <value>The Bastion of Twilight (10)</value>
+    </data>
+    <data name="Dungeon316" xml:space="preserve">
+      <value>The Bastion of Twilight (25)</value>
+    </data>
+    <data name="Dungeon317" xml:space="preserve">
+      <value>Throne of the Four Winds (10)</value>
+    </data>
+    <data name="Dungeon318" xml:space="preserve">
+      <value>Throne of the Four Winds (25)</value>
+    </data>
+    <data name="Dungeon328" xml:space="preserve">
+      <value>Baradin Hold (10)</value>
+    </data>
+    <data name="Dungeon329" xml:space="preserve">
+      <value>Baradin Hold (25)</value>
+    </data>
+    <data name="Dungeon358" xml:space="preserve">
+      <value>10v10 Rated Battleground</value>
+    </data>
+    <data name="Dungeon361" xml:space="preserve">
+      <value>Firelands (10)</value>
+    </data>
+    <data name="Dungeon362" xml:space="preserve">
+      <value>Firelands (25)</value>
+    </data>
+    <data name="Dungeon447" xml:space="preserve">
+      <value>Dragon Soul (10)</value>
+    </data>
+    <data name="Dungeon448" xml:space="preserve">
+      <value>Dragon Soul (25)</value>
+    </data>
+    <data name="Dungeon58" xml:space="preserve">
+      <value>Elwynn Forest</value>
+    </data>
+    <data name="Dungeon60" xml:space="preserve">
+      <value>Westfall</value>
+    </data>
+    <data name="Dungeon62" xml:space="preserve">
+      <value>Duskwood</value>
+    </data>
+    <data name="Dungeon64" xml:space="preserve">
+      <value>Dun Morogh</value>
+    </data>
+    <data name="Dungeon66" xml:space="preserve">
+      <value>Loch Modan</value>
+    </data>
+    <data name="Dungeon68" xml:space="preserve">
+      <value>Wetlands</value>
+    </data>
+    <data name="Dungeon70" xml:space="preserve">
+      <value>Stranglethorn Vale</value>
+    </data>
+    <data name="Dungeon72" xml:space="preserve">
+      <value>Blasted Lands</value>
+    </data>
+    <data name="Dungeon74" xml:space="preserve">
+      <value>Swamp of Sorrows</value>
+    </data>
+    <data name="Dungeon76" xml:space="preserve">
+      <value>Redridge Mountains</value>
+    </data>
+    <data name="Dungeon78" xml:space="preserve">
+      <value>Burning Steppes</value>
+    </data>
+    <data name="Dungeon80" xml:space="preserve">
+      <value>Searing Gorge</value>
+    </data>
+    <data name="Dungeon82" xml:space="preserve">
+      <value>Badlands</value>
+    </data>
+    <data name="Dungeon84" xml:space="preserve">
+      <value>Arathi Highlands</value>
+    </data>
+    <data name="Dungeon86" xml:space="preserve">
+      <value>Hillsbrad Foothills</value>
+    </data>
+    <data name="Dungeon88" xml:space="preserve">
+      <value>Hinterlands</value>
+    </data>
+    <data name="Dungeon90" xml:space="preserve">
+      <value>Western Plaguelands</value>
+    </data>
+    <data name="Dungeon92" xml:space="preserve">
+      <value>Eastern Plaguelands</value>
+    </data>
+    <data name="Dungeon94" xml:space="preserve">
+      <value>Tirisfal Glades</value>
+    </data>
+    <data name="Dungeon96" xml:space="preserve">
+      <value>Silverpine Forest</value>
+    </data>
+    <data name="Dungeon98" xml:space="preserve">
+      <value>Alterac Mountains</value>
+    </data>
+    <data name="Dungeon100" xml:space="preserve">
+      <value>Durotar</value>
+    </data>
+    <data name="Dungeon102" xml:space="preserve">
+      <value>Mulgore</value>
+    </data>
+    <data name="Dungeon104" xml:space="preserve">
+      <value>The Barrens</value>
+    </data>
+    <data name="Dungeon106" xml:space="preserve">
+      <value>Stonetalon Mountains</value>
+    </data>
+    <data name="Dungeon108" xml:space="preserve">
+      <value>Thousand Needles</value>
+    </data>
+    <data name="Dungeon110" xml:space="preserve">
+      <value>Desolace</value>
+    </data>
+    <data name="Dungeon112" xml:space="preserve">
+      <value>Feralas</value>
+    </data>
+    <data name="Dungeon114" xml:space="preserve">
+      <value>Dustwallow Marsh</value>
+    </data>
+    <data name="Dungeon116" xml:space="preserve">
+      <value>Tanaris</value>
+    </data>
+    <data name="Dungeon118" xml:space="preserve">
+      <value>Un'Goro Crater</value>
+    </data>
+    <data name="Dungeon120" xml:space="preserve">
+      <value>Silithus</value>
+    </data>
+    <data name="Dungeon122" xml:space="preserve">
+      <value>Teldrassil</value>
+    </data>
+    <data name="Dungeon124" xml:space="preserve">
+      <value>Darkshore</value>
+    </data>
+    <data name="Dungeon126" xml:space="preserve">
+      <value>Ashenvale</value>
+    </data>
+    <data name="Dungeon128" xml:space="preserve">
+      <value>Felwood</value>
+    </data>
+    <data name="Dungeon130" xml:space="preserve">
+      <value>Azshara</value>
+    </data>
+    <data name="Dungeon132" xml:space="preserve">
+      <value>Winterspring</value>
+    </data>
+    <data name="Dungeon152" xml:space="preserve">
+      <value>Hellfire Peninsula</value>
+    </data>
+    <data name="Dungeon153" xml:space="preserve">
+      <value>Zangarmarsh</value>
+    </data>
+    <data name="Dungeon154" xml:space="preserve">
+      <value>Terokkar Forest</value>
+    </data>
+    <data name="Dungeon155" xml:space="preserve">
+      <value>Nagrand</value>
+    </data>
+    <data name="Dungeon156" xml:space="preserve">
+      <value>Shadowmoon Valley</value>
+    </data>
+    <data name="Dungeon157" xml:space="preserve">
+      <value>Blade's Edge Mountains</value>
+    </data>
+    <data name="Dungeon158" xml:space="preserve">
+      <value>Netherstorm</value>
+    </data>
+    <data name="Dungeon166" xml:space="preserve">
+      <value>Eversong Woods</value>
+    </data>
+    <data name="Dungeon167" xml:space="preserve">
+      <value>Azuremyst Isle</value>
+    </data>
+    <data name="Dungeon168" xml:space="preserve">
+      <value>Ghostlands</value>
+    </data>
+    <data name="Dungeon169" xml:space="preserve">
+      <value>Bloodmyst Isle</value>
+    </data>
+    <data name="Dungeon200" xml:space="preserve">
+      <value>Isle of Quel'Danas</value>
+    </data>
+    <data name="Dungeon228" xml:space="preserve">
+      <value>Borean Tundra</value>
+    </data>
+    <data name="Dungeon229" xml:space="preserve">
+      <value>Howling Fjord</value>
+    </data>
+    <data name="Dungeon230" xml:space="preserve">
+      <value>Grizzly Hills</value>
+    </data>
+    <data name="Dungeon231" xml:space="preserve">
+      <value>Dragonblight</value>
+    </data>
+    <data name="Dungeon232" xml:space="preserve">
+      <value>Wintergrasp</value>
+    </data>
+    <data name="Dungeon233" xml:space="preserve">
+      <value>Zul'Drak</value>
+    </data>
+    <data name="Dungeon234" xml:space="preserve">
+      <value>Sholazar Basin</value>
+    </data>
+    <data name="Dungeon235" xml:space="preserve">
+      <value>The Storm Peaks</value>
+    </data>
+    <data name="Dungeon236" xml:space="preserve">
+      <value>Icecrown</value>
+    </data>
+    <data name="Dungeon258" xml:space="preserve">
+      <value>Random Classic Dungeon</value>
+    </data>
+    <data name="Dungeon259" xml:space="preserve">
+      <value>Random Burning Crusade Dungeon</value>
+    </data>
+    <data name="Dungeon260" xml:space="preserve">
+      <value>Random Burning Crusade Heroic</value>
+    </data>
+    <data name="Dungeon261" xml:space="preserve">
+      <value>Random Lich King Dungeon</value>
+    </data>
+    <data name="Dungeon262" xml:space="preserve">
+      <value>Random Lich King Heroic</value>
+    </data>
+    <data name="Dungeon300" xml:space="preserve">
+      <value>Random Cataclysm Dungeon</value>
+    </data>
+    <data name="Dungeon301" xml:space="preserve">
+      <value>Random Cataclysm Heroic</value>
+    </data>
+    <data name="Dungeon434" xml:space="preserve">
+      <value>Random Hour of Twilight Heroic</value>
+    </data>
+</root>

@@ -61,7 +61,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Queries
                 foreach (var poi in pois.Poi)
                 {
                     Output.AppendFormatLine("  Objective: {0}, Map: {1} ({1:D}), Area: {2} ({2:D}), Floor: {3}, Unk3: {4}, Unk4: {5}", 
-                        poi.ObjectiveIndex, (Maps)poi.MapId, (Zones)poi.MapAreaId, poi.FloorId, poi.Unk3, poi.Unk4);
+                        poi.ObjectiveIndex, ((Maps)poi.MapId).GetLocalizedName(), (Zones)poi.MapAreaId, poi.FloorId, poi.Unk3, poi.Unk4);
 
                     foreach (var point in poi.Points)
                         Output.AppendFormatLine("    X: {0} Y: {1}", point.X, point.Y);
