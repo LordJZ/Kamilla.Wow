@@ -97,10 +97,10 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Lobby
                     .AppendLine("___________________________________________________________")
                     .AppendLine("GUID: " + guid1)
                     // Charname - Female Undead Warrior
-                    .AppendFormatLine("{0} - {3} {1} {2} (#{4})", name, race, classs, gender, order)
+                    .AppendFormatLine("{0} - {3} {1} {2} (#{4})", name, race.GetLocalizedName(), classs.GetLocalizedName(), gender.GetLocalizedName(), order)
                     .AppendFormatLine("Skin: {0} Face: {1} Hair Style: {2} Hair Color: {3} Facial Hair: {4}",
                     skin, face, hairStyle, hairColor, facialHair)
-                    .AppendFormatLine("Character level: {0} Zone: {1} ({1:D}) Map: {2} ({2:D})", level, zone, map)
+                    .AppendFormatLine("Character level: {0} Zone: {1} ({1:D}) Map: {2} ({2:D})", level, zone, map.GetLocalizedName())
                     .AppendLine("Position: " + position)
                     .AppendLine("Guild: " + guid2)
                     .AppendLine("Char Flags: " + charFlags)

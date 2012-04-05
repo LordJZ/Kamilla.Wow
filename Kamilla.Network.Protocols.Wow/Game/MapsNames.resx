@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+    <data name="Map0" xml:space="preserve">
+      <value>Eastern Kingdoms</value>
+    </data>
+    <data name="Map1" xml:space="preserve">
+      <value>Kalimdor</value>
+    </data>
+    <data name="Map13" xml:space="preserve">
+      <value>Testing</value>
+    </data>
+    <data name="Map25" xml:space="preserve">
+      <value>Scott Test</value>
+    </data>
+    <data name="Map30" xml:space="preserve">
+      <value>Alterac Valley</value>
+    </data>
+    <data name="Map33" xml:space="preserve">
+      <value>Shadowfang Keep</value>
+    </data>
+    <data name="Map34" xml:space="preserve">
+      <value>Stormwind Stockade</value>
+    </data>
+    <data name="Map35" xml:space="preserve">
+      <value>&lt;unused&gt;StormwindPrison</value>
+    </data>
+    <data name="Map36" xml:space="preserve">
+      <value>Deadmines</value>
+    </data>
+    <data name="Map37" xml:space="preserve">
+      <value>Azshara Crater</value>
+    </data>
+    <data name="Map42" xml:space="preserve">
+      <value>Collin&apos;s Test</value>
+    </data>
+    <data name="Map43" xml:space="preserve">
+      <value>Wailing Caverns</value>
+    </data>
+    <data name="Map44" xml:space="preserve">
+      <value>&lt;unused&gt; Monastery</value>
+    </data>
+    <data name="Map47" xml:space="preserve">
+      <value>Razorfen Kraul</value>
+    </data>
+    <data name="Map48" xml:space="preserve">
+      <value>Blackfathom Deeps</value>
+    </data>
+    <data name="Map70" xml:space="preserve">
+      <value>Uldaman</value>
+    </data>
+    <data name="Map90" xml:space="preserve">
+      <value>Gnomeregan</value>
+    </data>
+    <data name="Map109" xml:space="preserve">
+      <value>Sunken Temple</value>
+    </data>
+    <data name="Map129" xml:space="preserve">
+      <value>Razorfen Downs</value>
+    </data>
+    <data name="Map169" xml:space="preserve">
+      <value>Emerald Dream</value>
+    </data>
+    <data name="Map189" xml:space="preserve">
+      <value>Scarlet Monastery</value>
+    </data>
+    <data name="Map209" xml:space="preserve">
+      <value>Zul&apos;Farrak</value>
+    </data>
+    <data name="Map229" xml:space="preserve">
+      <value>Blackrock Spire</value>
+    </data>
+    <data name="Map230" xml:space="preserve">
+      <value>Blackrock Depths</value>
+    </data>
+    <data name="Map249" xml:space="preserve">
+      <value>Onyxia&apos;s Lair</value>
+    </data>
+    <data name="Map269" xml:space="preserve">
+      <value>Opening of the Dark Portal</value>
+    </data>
+    <data name="Map289" xml:space="preserve">
+      <value>Scholomance</value>
+    </data>
+    <data name="Map309" xml:space="preserve">
+      <value>Ancient Zul&apos;Gurub</value>
+    </data>
+    <data name="Map329" xml:space="preserve">
+      <value>Stratholme</value>
+    </data>
+    <data name="Map349" xml:space="preserve">
+      <value>Maraudon</value>
+    </data>
+    <data name="Map369" xml:space="preserve">
+      <value>Deeprun Tram</value>
+    </data>
+    <data name="Map389" xml:space="preserve">
+      <value>Ragefire Chasm</value>
+    </data>
+    <data name="Map409" xml:space="preserve">
+      <value>Molten Core</value>
+    </data>
+    <data name="Map429" xml:space="preserve">
+      <value>Dire Maul</value>
+    </data>
+    <data name="Map449" xml:space="preserve">
+      <value>Alliance PVP Barracks</value>
+    </data>
+    <data name="Map450" xml:space="preserve">
+      <value>Horde PVP Barracks</value>
+    </data>
+    <data name="Map451" xml:space="preserve">
+      <value>Development Land</value>
+    </data>
+    <data name="Map469" xml:space="preserve">
+      <value>Blackwing Lair</value>
+    </data>
+    <data name="Map489" xml:space="preserve">
+      <value>Warsong Gulch</value>
+    </data>
+    <data name="Map509" xml:space="preserve">
+      <value>Ruins of Ahn&apos;Qiraj</value>
+    </data>
+    <data name="Map529" xml:space="preserve">
+      <value>Arathi Basin</value>
+    </data>
+    <data name="Map530" xml:space="preserve">
+      <value>Outland</value>
+    </data>
+    <data name="Map531" xml:space="preserve">
+      <value>Ahn&apos;Qiraj Temple</value>
+    </data>
+    <data name="Map532" xml:space="preserve">
+      <value>Karazhan</value>
+    </data>
+    <data name="Map533" xml:space="preserve">
+      <value>Naxxramas</value>
+    </data>
+    <data name="Map534" xml:space="preserve">
+      <value>The Battle for Mount Hyjal</value>
+    </data>
+    <data name="Map540" xml:space="preserve">
+      <value>Hellfire Citadel: The Shattered Halls</value>
+    </data>
+    <data name="Map542" xml:space="preserve">
+      <value>Hellfire Citadel: The Blood Furnace</value>
+    </data>
+    <data name="Map543" xml:space="preserve">
+      <value>Hellfire Citadel: Ramparts</value>
+    </data>
+    <data name="Map544" xml:space="preserve">
+      <value>Magtheridon&apos;s Lair</value>
+    </data>
+    <data name="Map545" xml:space="preserve">
+      <value>Coilfang: The Steamvault</value>
+    </data>
+    <data name="Map546" xml:space="preserve">
+      <value>Coilfang: The Underbog</value>
+    </data>
+    <data name="Map547" xml:space="preserve">
+      <value>Coilfang: The Slave Pens</value>
+    </data>
+    <data name="Map548" xml:space="preserve">
+      <value>Coilfang: Serpentshrine Cavern</value>
+    </data>
+    <data name="Map550" xml:space="preserve">
+      <value>Tempest Keep</value>
+    </data>
+    <data name="Map552" xml:space="preserve">
+      <value>Tempest Keep: The Arcatraz</value>
+    </data>
+    <data name="Map553" xml:space="preserve">
+      <value>Tempest Keep: The Botanica</value>
+    </data>
+    <data name="Map554" xml:space="preserve">
+      <value>Tempest Keep: The Mechanar</value>
+    </data>
+    <data name="Map555" xml:space="preserve">
+      <value>Auchindoun: Shadow Labyrinth</value>
+    </data>
+    <data name="Map556" xml:space="preserve">
+      <value>Auchindoun: Sethekk Halls</value>
+    </data>
+    <data name="Map557" xml:space="preserve">
+      <value>Auchindoun: Mana-Tombs</value>
+    </data>
+    <data name="Map558" xml:space="preserve">
+      <value>Auchindoun: Auchenai Crypts</value>
+    </data>
+    <data name="Map559" xml:space="preserve">
+      <value>Nagrand Arena</value>
+    </data>
+    <data name="Map560" xml:space="preserve">
+      <value>The Escape From Durnholde</value>
+    </data>
+    <data name="Map562" xml:space="preserve">
+      <value>Blade&apos;s Edge Arena</value>
+    </data>
+    <data name="Map564" xml:space="preserve">
+      <value>Black Temple</value>
+    </data>
+    <data name="Map565" xml:space="preserve">
+      <value>Gruul&apos;s Lair</value>
+    </data>
+    <data name="Map566" xml:space="preserve">
+      <value>Eye of the Storm</value>
+    </data>
+    <data name="Map568" xml:space="preserve">
+      <value>Zul&apos;Aman</value>
+    </data>
+    <data name="Map571" xml:space="preserve">
+      <value>Northrend</value>
+    </data>
+    <data name="Map572" xml:space="preserve">
+      <value>Ruins of Lordaeron</value>
+    </data>
+    <data name="Map573" xml:space="preserve">
+      <value>ExteriorTest</value>
+    </data>
+    <data name="Map574" xml:space="preserve">
+      <value>Utgarde Keep</value>
+    </data>
+    <data name="Map575" xml:space="preserve">
+      <value>Utgarde Pinnacle</value>
+    </data>
+    <data name="Map576" xml:space="preserve">
+      <value>The Nexus</value>
+    </data>
+    <data name="Map578" xml:space="preserve">
+      <value>The Oculus</value>
+    </data>
+    <data name="Map580" xml:space="preserve">
+      <value>The Sunwell</value>
+    </data>
+    <data name="Map582" xml:space="preserve">
+      <value>Transport: Rut&apos;theran to Auberdine</value>
+    </data>
+    <data name="Map584" xml:space="preserve">
+      <value>Transport: Menethil to Theramore</value>
+    </data>
+    <data name="Map585" xml:space="preserve">
+      <value>Magister&apos;s Terrace</value>
+    </data>
+    <data name="Map586" xml:space="preserve">
+      <value>Transport: Exodar to Auberdine</value>
+    </data>
+    <data name="Map587" xml:space="preserve">
+      <value>Transport: Feathermoon Ferry</value>
+    </data>
+    <data name="Map588" xml:space="preserve">
+      <value>Transport: Menethil to Auberdine</value>
+    </data>
+    <data name="Map589" xml:space="preserve">
+      <value>Transport: Orgrimmar to Grom&apos;Gol</value>
+    </data>
+    <data name="Map590" xml:space="preserve">
+      <value>Transport: Grom&apos;Gol to Undercity</value>
+    </data>
+    <data name="Map591" xml:space="preserve">
+      <value>Transport: Undercity to Orgrimmar</value>
+    </data>
+    <data name="Map592" xml:space="preserve">
+      <value>Transport: Borean Tundra Test</value>
+    </data>
+    <data name="Map593" xml:space="preserve">
+      <value>Transport: Booty Bay to Ratchet</value>
+    </data>
+    <data name="Map594" xml:space="preserve">
+      <value>Transport: Howling Fjord Sister Mercy (Quest)</value>
+    </data>
+    <data name="Map595" xml:space="preserve">
+      <value>The Culling of Stratholme</value>
+    </data>
+    <data name="Map596" xml:space="preserve">
+      <value>Transport: Naglfar</value>
+    </data>
+    <data name="Map597" xml:space="preserve">
+      <value>Craig Test</value>
+    </data>
+    <data name="Map598" xml:space="preserve">
+      <value>Sunwell Fix (Unused)</value>
+    </data>
+    <data name="Map599" xml:space="preserve">
+      <value>Halls of Stone</value>
+    </data>
+    <data name="Map600" xml:space="preserve">
+      <value>Drak&apos;Tharon Keep</value>
+    </data>
+    <data name="Map601" xml:space="preserve">
+      <value>Azjol-Nerub</value>
+    </data>
+    <data name="Map602" xml:space="preserve">
+      <value>Halls of Lightning</value>
+    </data>
+    <data name="Map603" xml:space="preserve">
+      <value>Ulduar</value>
+    </data>
+    <data name="Map604" xml:space="preserve">
+      <value>Gundrak</value>
+    </data>
+    <data name="Map605" xml:space="preserve">
+      <value>Development Land (non-weighted textures)</value>
+    </data>
+    <data name="Map606" xml:space="preserve">
+      <value>QA and DVD</value>
+    </data>
+    <data name="Map607" xml:space="preserve">
+      <value>Strand of the Ancients</value>
+    </data>
+    <data name="Map608" xml:space="preserve">
+      <value>Violet Hold</value>
+    </data>
+    <data name="Map609" xml:space="preserve">
+      <value>Ebon Hold</value>
+    </data>
+    <data name="Map610" xml:space="preserve">
+      <value>Transport: Tirisfal to Vengeance Landing</value>
+    </data>
+    <data name="Map612" xml:space="preserve">
+      <value>Transport: Menethil to Valgarde</value>
+    </data>
+    <data name="Map613" xml:space="preserve">
+      <value>Transport: Orgrimmar to Warsong Hold</value>
+    </data>
+    <data name="Map614" xml:space="preserve">
+      <value>Transport: Stormwind to Valiance Keep</value>
+    </data>
+    <data name="Map615" xml:space="preserve">
+      <value>The Obsidian Sanctum</value>
+    </data>
+    <data name="Map616" xml:space="preserve">
+      <value>The Eye of Eternity</value>
+    </data>
+    <data name="Map617" xml:space="preserve">
+      <value>Dalaran Sewers</value>
+    </data>
+    <data name="Map618" xml:space="preserve">
+      <value>The Ring of Valor</value>
+    </data>
+    <data name="Map619" xml:space="preserve">
+      <value>Ahn&apos;kahet: The Old Kingdom</value>
+    </data>
+    <data name="Map620" xml:space="preserve">
+      <value>Transport: Moa&apos;ki to Unu&apos;pe</value>
+    </data>
+    <data name="Map621" xml:space="preserve">
+      <value>Transport: Moa&apos;ki to Kamagua</value>
+    </data>
+    <data name="Map622" xml:space="preserve">
+      <value>Transport: Orgrim&apos;s Hammer</value>
+    </data>
+    <data name="Map623" xml:space="preserve">
+      <value>Transport: The Skybreaker</value>
+    </data>
+    <data name="Map624" xml:space="preserve">
+      <value>Vault of Archavon</value>
+    </data>
+    <data name="Map627" xml:space="preserve">
+      <value>unused</value>
+    </data>
+    <data name="Map628" xml:space="preserve">
+      <value>Isle of Conquest</value>
+    </data>
+    <data name="Map631" xml:space="preserve">
+      <value>Icecrown Citadel</value>
+    </data>
+    <data name="Map632" xml:space="preserve">
+      <value>The Forge of Souls</value>
+    </data>
+    <data name="Map637" xml:space="preserve">
+      <value>Abyssal Maw Exterior</value>
+    </data>
+    <data name="Map638" xml:space="preserve">
+      <value>Gilneas</value>
+    </data>
+    <data name="Map641" xml:space="preserve">
+      <value>Transport: Alliance Airship BG</value>
+    </data>
+    <data name="Map642" xml:space="preserve">
+      <value>Transport: HordeAirshipBG</value>
+    </data>
+    <data name="Map643" xml:space="preserve">
+      <value>Throne of the Tides</value>
+    </data>
+    <data name="Map644" xml:space="preserve">
+      <value>Halls of Origination</value>
+    </data>
+    <data name="Map645" xml:space="preserve">
+      <value>Blackrock Caverns</value>
+    </data>
+    <data name="Map646" xml:space="preserve">
+      <value>Deepholm</value>
+    </data>
+    <data name="Map647" xml:space="preserve">
+      <value>Transport: Orgrimmar to Thunder Bluff</value>
+    </data>
+    <data name="Map648" xml:space="preserve">
+      <value>LostIsles</value>
+    </data>
+    <data name="Map649" xml:space="preserve">
+      <value>Trial of the Crusader</value>
+    </data>
+    <data name="Map650" xml:space="preserve">
+      <value>Trial of the Champion</value>
+    </data>
+    <data name="Map651" xml:space="preserve">
+      <value>ElevatorSpawnTest</value>
+    </data>
+    <data name="Map654" xml:space="preserve">
+      <value>Gilneas2</value>
+    </data>
+    <data name="Map655" xml:space="preserve">
+      <value>GilneasPhase1</value>
+    </data>
+    <data name="Map656" xml:space="preserve">
+      <value>GilneasPhase2</value>
+    </data>
+    <data name="Map657" xml:space="preserve">
+      <value>The Vortex Pinnacle</value>
+    </data>
+    <data name="Map658" xml:space="preserve">
+      <value>Pit of Saron</value>
+    </data>
+    <data name="Map659" xml:space="preserve">
+      <value>Lost Isles Volcano Eruption</value>
+    </data>
+    <data name="Map660" xml:space="preserve">
+      <value>Deephome Ceiling</value>
+    </data>
+    <data name="Map661" xml:space="preserve">
+      <value>Lost Isles Town in a Box</value>
+    </data>
+    <data name="Map662" xml:space="preserve">
+      <value>Transport: Alliance Vashj&apos;ir Ship</value>
+    </data>
+    <data name="Map668" xml:space="preserve">
+      <value>Halls of Reflection</value>
+    </data>
+    <data name="Map669" xml:space="preserve">
+      <value>Blackwing Descent</value>
+    </data>
+    <data name="Map670" xml:space="preserve">
+      <value>Grim Batol</value>
+    </data>
+    <data name="Map671" xml:space="preserve">
+      <value>The Bastion of Twilight</value>
+    </data>
+    <data name="Map672" xml:space="preserve">
+      <value>Transport: The Skybreaker (Icecrown Citadel Raid)</value>
+    </data>
+    <data name="Map673" xml:space="preserve">
+      <value>Transport: Orgrim&apos;s Hammer (Icecrown Citadel Raid)</value>
+    </data>
+    <data name="Map674" xml:space="preserve">
+      <value>Transport: Ship to Vashj&apos;ir</value>
+    </data>
+    <data name="Map712" xml:space="preserve">
+      <value>Transport: The Skybreaker (IC Dungeon)</value>
+    </data>
+    <data name="Map713" xml:space="preserve">
+      <value>Transport: Orgrim&apos;s Hammer (IC Dungeon)</value>
+    </data>
+    <data name="Map718" xml:space="preserve">
+      <value>Trasnport: The Mighty Wind (Icecrown Citadel Raid)</value>
+    </data>
+    <data name="Map719" xml:space="preserve">
+      <value>Mount Hyjal Phase 1</value>
+    </data>
+    <data name="Map720" xml:space="preserve">
+      <value>Firelands</value>
+    </data>
+    <data name="Map721" xml:space="preserve">
+      <value>Firelands Terrain 2</value>
+    </data>
+    <data name="Map723" xml:space="preserve">
+      <value>Stormwind</value>
+    </data>
+    <data name="Map724" xml:space="preserve">
+      <value>The Ruby Sanctum</value>
+    </data>
+    <data name="Map725" xml:space="preserve">
+      <value>The Stonecore</value>
+    </data>
+    <data name="Map726" xml:space="preserve">
+      <value>Twin Peaks</value>
+    </data>
+    <data name="Map727" xml:space="preserve">
+      <value>STV Diamond Mine BG</value>
+    </data>
+    <data name="Map728" xml:space="preserve">
+      <value>The Battle for Gilneas (Old City Map)</value>
+    </data>
+    <data name="Map730" xml:space="preserve">
+      <value>Maelstrom Zone</value>
+    </data>
+    <data name="Map731" xml:space="preserve">
+      <value>Stonetalon Bomb</value>
+    </data>
+    <data name="Map732" xml:space="preserve">
+      <value>Tol Barad</value>
+    </data>
+    <data name="Map734" xml:space="preserve">
+      <value>Ahn&apos;Qiraj Terrace</value>
+    </data>
+    <data name="Map736" xml:space="preserve">
+      <value>Twilight Highlands Dragonmaw Phase</value>
+    </data>
+    <data name="Map738" xml:space="preserve">
+      <value>Ship to Vashj&apos;ir (Orgrimmar -&gt; Vashj&apos;ir)</value>
+    </data>
+    <data name="Map739" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Horde</value>
+    </data>
+    <data name="Map740" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Alliance</value>
+    </data>
+    <data name="Map741" xml:space="preserve">
+      <value>Twilight Highlands Horde Transport</value>
+    </data>
+    <data name="Map742" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Horde - Circling Abyssal Maw</value>
+    </data>
+    <data name="Map743" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Alliance circling Abyssal Maw</value>
+    </data>
+    <data name="Map746" xml:space="preserve">
+      <value>Uldum Phase Oasis</value>
+    </data>
+    <data name="Map747" xml:space="preserve">
+      <value>Transport: Deepholm Gunship</value>
+    </data>
+    <data name="Map748" xml:space="preserve">
+      <value>Transport: Onyxia/Nefarian Elevator</value>
+    </data>
+    <data name="Map749" xml:space="preserve">
+      <value>Transport: Gilneas Moving Gunship</value>
+    </data>
+    <data name="Map750" xml:space="preserve">
+      <value>Transport: Gilneas Static Gunship</value>
+    </data>
+    <data name="Map751" xml:space="preserve">
+      <value>Redridge - Orc Bomb</value>
+    </data>
+    <data name="Map752" xml:space="preserve">
+      <value>Redridge - Bridge Phase One</value>
+    </data>
+    <data name="Map753" xml:space="preserve">
+      <value>Redridge - Bridge Phase Two</value>
+    </data>
+    <data name="Map754" xml:space="preserve">
+      <value>Throne of the Four Winds</value>
+    </data>
+    <data name="Map755" xml:space="preserve">
+      <value>Lost City of the Tol&apos;vir</value>
+    </data>
+    <data name="Map757" xml:space="preserve">
+      <value>Baradin Hold</value>
+    </data>
+    <data name="Map759" xml:space="preserve">
+      <value>Uldum Phased Entrance</value>
+    </data>
+    <data name="Map760" xml:space="preserve">
+      <value>Twilight Highlands Phased Entrance</value>
+    </data>
+    <data name="Map761" xml:space="preserve">
+      <value>The Battle for Gilneas</value>
+    </data>
+    <data name="Map762" xml:space="preserve">
+      <value>Twilight Highlands Zeppelin 1</value>
+    </data>
+    <data name="Map763" xml:space="preserve">
+      <value>Twilight Highlands Zeppelin 2</value>
+    </data>
+    <data name="Map764" xml:space="preserve">
+      <value>Uldum - Phase Wrecked Camp</value>
+    </data>
+    <data name="Map765" xml:space="preserve">
+      <value>Krazzworks Attack Zeppelin</value>
+    </data>
+    <data name="Map766" xml:space="preserve">
+      <value>Transport: Gilneas Moving Gunship 02</value>
+    </data>
+    <data name="Map767" xml:space="preserve">
+      <value>Transport: Gilneas Moving Gunship 03</value>
+    </data>
+    <data name="Map859" xml:space="preserve">
+      <value>Zul&apos;Gurub</value>
+    </data>
+    <data name="Map861" xml:space="preserve">
+      <value>Molten Front</value>
+    </data>
+    <data name="Map930" xml:space="preserve">
+      <value>Scenario: Alcaz Island</value>
+    </data>
+    <data name="Map938" xml:space="preserve">
+      <value>End Time</value>
+    </data>
+    <data name="Map939" xml:space="preserve">
+      <value>Well of Eternity</value>
+    </data>
+    <data name="Map940" xml:space="preserve">
+      <value>Hour of Twilight</value>
+    </data>
+    <data name="Map951" xml:space="preserve">
+      <value>Nexus Legendary</value>
+    </data>
+    <data name="Map967" xml:space="preserve">
+      <value>Dragon Soul</value>
+    </data>
+    <data name="Map968" xml:space="preserve">
+      <value>Rated Eye of the Storm</value>
+    </data>
+    <data name="Map974" xml:space="preserve">
+      <value>Darkmoon Faire</value>
+    </data>
+    <data name="Map977" xml:space="preserve">
+      <value>Maelstrom Deathwing Fight</value>
+    </data>
+    <data name="Map980" xml:space="preserve">
+      <value>Tol&apos;Vir Arena</value>
+    </data>
+</root>

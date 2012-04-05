@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+    <data name="Map0" xml:space="preserve">
+      <value>Восточные королевства</value>
+    </data>
+    <data name="Map1" xml:space="preserve">
+      <value>Калимдор</value>
+    </data>
+    <data name="Map13" xml:space="preserve">
+      <value>Тестирование</value>
+    </data>
+    <data name="Map25" xml:space="preserve">
+      <value>Тест Скотта</value>
+    </data>
+    <data name="Map30" xml:space="preserve">
+      <value>Альтеракская долина</value>
+    </data>
+    <data name="Map33" xml:space="preserve">
+      <value>Крепость Темного Клыка</value>
+    </data>
+    <data name="Map34" xml:space="preserve">
+      <value>Тюрьма Штормграда</value>
+    </data>
+    <data name="Map35" xml:space="preserve">
+      <value>&lt;UNUSED&gt; Тюрьма Штормграда</value>
+    </data>
+    <data name="Map36" xml:space="preserve">
+      <value>Мертвые копи</value>
+    </data>
+    <data name="Map37" xml:space="preserve">
+      <value>Кратер Азшары</value>
+    </data>
+    <data name="Map42" xml:space="preserve">
+      <value>Тест Коллина</value>
+    </data>
+    <data name="Map43" xml:space="preserve">
+      <value>Пещеры Стенаний</value>
+    </data>
+    <data name="Map44" xml:space="preserve">
+      <value>&lt;UNUSED&gt; Монастырь</value>
+    </data>
+    <data name="Map47" xml:space="preserve">
+      <value>Лабиринты Иглошкурых</value>
+    </data>
+    <data name="Map48" xml:space="preserve">
+      <value>Непроглядная Пучина</value>
+    </data>
+    <data name="Map70" xml:space="preserve">
+      <value>Ульдаман</value>
+    </data>
+    <data name="Map90" xml:space="preserve">
+      <value>Гномреган</value>
+    </data>
+    <data name="Map109" xml:space="preserve">
+      <value>Затонувший храм</value>
+    </data>
+    <data name="Map129" xml:space="preserve">
+      <value>Курганы Иглошкурых</value>
+    </data>
+    <data name="Map169" xml:space="preserve">
+      <value>Изумрудный Сон</value>
+    </data>
+    <data name="Map189" xml:space="preserve">
+      <value>Монастырь Алого ордена</value>
+    </data>
+    <data name="Map209" xml:space="preserve">
+      <value>Зул&apos;Фаррак</value>
+    </data>
+    <data name="Map229" xml:space="preserve">
+      <value>Пик Черной горы</value>
+    </data>
+    <data name="Map230" xml:space="preserve">
+      <value>Глубины Черной горы</value>
+    </data>
+    <data name="Map249" xml:space="preserve">
+      <value>Логово Ониксии</value>
+    </data>
+    <data name="Map269" xml:space="preserve">
+      <value>Открытие Темного портала</value>
+    </data>
+    <data name="Map289" xml:space="preserve">
+      <value>Некроситет</value>
+    </data>
+    <data name="Map309" xml:space="preserve">
+      <value>Старый Зул&apos;Гуруб</value>
+    </data>
+    <data name="Map329" xml:space="preserve">
+      <value>Стратхольм</value>
+    </data>
+    <data name="Map349" xml:space="preserve">
+      <value>Мародон</value>
+    </data>
+    <data name="Map369" xml:space="preserve">
+      <value>Подземный поезд</value>
+    </data>
+    <data name="Map389" xml:space="preserve">
+      <value>Огненная Пропасть</value>
+    </data>
+    <data name="Map409" xml:space="preserve">
+      <value>Огненные Недра</value>
+    </data>
+    <data name="Map429" xml:space="preserve">
+      <value>Забытый Город</value>
+    </data>
+    <data name="Map449" xml:space="preserve">
+      <value>Казармы Альянса</value>
+    </data>
+    <data name="Map450" xml:space="preserve">
+      <value>Казармы Орды</value>
+    </data>
+    <data name="Map451" xml:space="preserve">
+      <value>Зона разработчика</value>
+    </data>
+    <data name="Map469" xml:space="preserve">
+      <value>Логово Крыла Тьмы</value>
+    </data>
+    <data name="Map489" xml:space="preserve">
+      <value>Ущелье Песни Войны</value>
+    </data>
+    <data name="Map509" xml:space="preserve">
+      <value>Руины Ан&apos;Киража</value>
+    </data>
+    <data name="Map529" xml:space="preserve">
+      <value>Низина Арати</value>
+    </data>
+    <data name="Map530" xml:space="preserve">
+      <value>Запределье</value>
+    </data>
+    <data name="Map531" xml:space="preserve">
+      <value>Храм Ан&apos;Киража</value>
+    </data>
+    <data name="Map532" xml:space="preserve">
+      <value>Каражан</value>
+    </data>
+    <data name="Map533" xml:space="preserve">
+      <value>Наксрамас</value>
+    </data>
+    <data name="Map534" xml:space="preserve">
+      <value>Битва за гору Хиджал</value>
+    </data>
+    <data name="Map540" xml:space="preserve">
+      <value>Цитадель Адского Пламени: Разрушенные залы</value>
+    </data>
+    <data name="Map542" xml:space="preserve">
+      <value>Цитадель Адского Пламени: Кузня Крови</value>
+    </data>
+    <data name="Map543" xml:space="preserve">
+      <value>Цитадель Адского Пламени: Бастионы</value>
+    </data>
+    <data name="Map544" xml:space="preserve">
+      <value>Логово Магтеридона</value>
+    </data>
+    <data name="Map545" xml:space="preserve">
+      <value>Кривой Клык: Паровое подземелье</value>
+    </data>
+    <data name="Map546" xml:space="preserve">
+      <value>Кривой Клык: Нижетопь</value>
+    </data>
+    <data name="Map547" xml:space="preserve">
+      <value>Кривой Клык: Узилище</value>
+    </data>
+    <data name="Map548" xml:space="preserve">
+      <value>Кривой Клык: Змеиное святилище</value>
+    </data>
+    <data name="Map550" xml:space="preserve">
+      <value>Крепость Бурь</value>
+    </data>
+    <data name="Map552" xml:space="preserve">
+      <value>Крепость Бурь: Аркатрац</value>
+    </data>
+    <data name="Map553" xml:space="preserve">
+      <value>Крепость Бурь: Ботаника</value>
+    </data>
+    <data name="Map554" xml:space="preserve">
+      <value>Крепость Бурь: Механар</value>
+    </data>
+    <data name="Map555" xml:space="preserve">
+      <value>Аукиндон: Темный лабиринт</value>
+    </data>
+    <data name="Map556" xml:space="preserve">
+      <value>Аукиндон: Сетеккские залы</value>
+    </data>
+    <data name="Map557" xml:space="preserve">
+      <value>Аукиндон: Гробницы Маны</value>
+    </data>
+    <data name="Map558" xml:space="preserve">
+      <value>Аукиндон: Аукенайские гробницы</value>
+    </data>
+    <data name="Map559" xml:space="preserve">
+      <value>Арена Награнда</value>
+    </data>
+    <data name="Map560" xml:space="preserve">
+      <value>Побег из Дарнхольда</value>
+    </data>
+    <data name="Map562" xml:space="preserve">
+      <value>Арена Острогорья</value>
+    </data>
+    <data name="Map564" xml:space="preserve">
+      <value>Черный храм</value>
+    </data>
+    <data name="Map565" xml:space="preserve">
+      <value>Логово Груула</value>
+    </data>
+    <data name="Map566" xml:space="preserve">
+      <value>Око Бури</value>
+    </data>
+    <data name="Map568" xml:space="preserve">
+      <value>Зул&apos;Аман</value>
+    </data>
+    <data name="Map571" xml:space="preserve">
+      <value>Нордскол</value>
+    </data>
+    <data name="Map572" xml:space="preserve">
+      <value>Руины Лордерона</value>
+    </data>
+    <data name="Map573" xml:space="preserve">
+      <value>ExteriorTest</value>
+    </data>
+    <data name="Map574" xml:space="preserve">
+      <value>Крепость Утгард</value>
+    </data>
+    <data name="Map575" xml:space="preserve">
+      <value>Вершина Утгард</value>
+    </data>
+    <data name="Map576" xml:space="preserve">
+      <value>Нексус</value>
+    </data>
+    <data name="Map578" xml:space="preserve">
+      <value>Окулус</value>
+    </data>
+    <data name="Map580" xml:space="preserve">
+      <value>Солнечный Колодец</value>
+    </data>
+    <data name="Map582" xml:space="preserve">
+      <value>Перевозка: из Рут&apos;терана в Аубердин</value>
+    </data>
+    <data name="Map584" xml:space="preserve">
+      <value>Перевозка: из Менетила на Терамор</value>
+    </data>
+    <data name="Map585" xml:space="preserve">
+      <value>Терраса Магистров</value>
+    </data>
+    <data name="Map586" xml:space="preserve">
+      <value>Перевозка: из Экзодара в Аубердин</value>
+    </data>
+    <data name="Map587" xml:space="preserve">
+      <value>Перевозка: Переправа Оперенной Луны</value>
+    </data>
+    <data name="Map588" xml:space="preserve">
+      <value>Перевозка: из Менетила в Аубердин</value>
+    </data>
+    <data name="Map589" xml:space="preserve">
+      <value>Перевозка: из Оргриммара в Гром&apos;гол</value>
+    </data>
+    <data name="Map590" xml:space="preserve">
+      <value>Перевозка: из Гром&apos;гола в Подгород</value>
+    </data>
+    <data name="Map591" xml:space="preserve">
+      <value>Перевозка: из Подгорода в Оргриммар</value>
+    </data>
+    <data name="Map592" xml:space="preserve">
+      <value>Перевозка: Борейская тундра (тест)</value>
+    </data>
+    <data name="Map593" xml:space="preserve">
+      <value>Перевозка: из Пиратской Бухты в Кабестан</value>
+    </data>
+    <data name="Map594" xml:space="preserve">
+      <value>Перевозка: Сестры милосердия Ревущего фьорда (задание)</value>
+    </data>
+    <data name="Map595" xml:space="preserve">
+      <value>Очищение Стратхольма</value>
+    </data>
+    <data name="Map596" xml:space="preserve">
+      <value>Перевозка: Нагльфар</value>
+    </data>
+    <data name="Map597" xml:space="preserve">
+      <value>Craig Test</value>
+    </data>
+    <data name="Map598" xml:space="preserve">
+      <value>Солнечный Колодец стабилизированный (не используется)</value>
+    </data>
+    <data name="Map599" xml:space="preserve">
+      <value>Чертоги Камня</value>
+    </data>
+    <data name="Map600" xml:space="preserve">
+      <value>Крепость Драк&apos;Тарон</value>
+    </data>
+    <data name="Map601" xml:space="preserve">
+      <value>Азжол-Неруб</value>
+    </data>
+    <data name="Map602" xml:space="preserve">
+      <value>Чертоги Молний</value>
+    </data>
+    <data name="Map603" xml:space="preserve">
+      <value>Ульдуар</value>
+    </data>
+    <data name="Map604" xml:space="preserve">
+      <value>Гундрак</value>
+    </data>
+    <data name="Map605" xml:space="preserve">
+      <value>Development Land (non-weighted textures)</value>
+    </data>
+    <data name="Map606" xml:space="preserve">
+      <value>QA and DVD</value>
+    </data>
+    <data name="Map607" xml:space="preserve">
+      <value>Берег Древних</value>
+    </data>
+    <data name="Map608" xml:space="preserve">
+      <value>Аметистовая крепость</value>
+    </data>
+    <data name="Map609" xml:space="preserve">
+      <value>Черный оплот</value>
+    </data>
+    <data name="Map610" xml:space="preserve">
+      <value>Транспорт: из Тирисфаля к Лагерю Возмездия</value>
+    </data>
+    <data name="Map612" xml:space="preserve">
+      <value>Транспорт: из Менетила к Вангарду</value>
+    </data>
+    <data name="Map613" xml:space="preserve">
+      <value>Транспорт: из Оргриммара к Крепости Песни Войны</value>
+    </data>
+    <data name="Map614" xml:space="preserve">
+      <value>Транспорт: из Штормграда к Крепости Отваги</value>
+    </data>
+    <data name="Map615" xml:space="preserve">
+      <value>Обсидиановое святилище</value>
+    </data>
+    <data name="Map616" xml:space="preserve">
+      <value>Око вечности</value>
+    </data>
+    <data name="Map617" xml:space="preserve">
+      <value>Стоки Даларана</value>
+    </data>
+    <data name="Map618" xml:space="preserve">
+      <value>Арена Доблести</value>
+    </data>
+    <data name="Map619" xml:space="preserve">
+      <value>Ан&apos;кахет: Старое Королевство</value>
+    </data>
+    <data name="Map620" xml:space="preserve">
+      <value>Транспорт: из Моа&apos;ки в Уну&apos;пе</value>
+    </data>
+    <data name="Map621" xml:space="preserve">
+      <value>Транспорт: из Моа&apos;ки в Камагуа</value>
+    </data>
+    <data name="Map622" xml:space="preserve">
+      <value>Транспорт: Молот Оргрима</value>
+    </data>
+    <data name="Map623" xml:space="preserve">
+      <value>Транспорт: Усмиритель небес</value>
+    </data>
+    <data name="Map624" xml:space="preserve">
+      <value>Склеп Аркавона</value>
+    </data>
+    <data name="Map627" xml:space="preserve">
+      <value>unused</value>
+    </data>
+    <data name="Map628" xml:space="preserve">
+      <value>Остров Завоеваний</value>
+    </data>
+    <data name="Map631" xml:space="preserve">
+      <value>Цитадель Ледяной Короны</value>
+    </data>
+    <data name="Map632" xml:space="preserve">
+      <value>Кузня Душ</value>
+    </data>
+    <data name="Map637" xml:space="preserve">
+      <value>Внешняя сторона Бездонной пучины</value>
+    </data>
+    <data name="Map638" xml:space="preserve">
+      <value>Гилнеас</value>
+    </data>
+    <data name="Map641" xml:space="preserve">
+      <value>Transport: Alliance Airship BG</value>
+    </data>
+    <data name="Map642" xml:space="preserve">
+      <value>Transport: HordeAirshipBG</value>
+    </data>
+    <data name="Map643" xml:space="preserve">
+      <value>Трон Приливов</value>
+    </data>
+    <data name="Map644" xml:space="preserve">
+      <value>Чертоги Созидания</value>
+    </data>
+    <data name="Map645" xml:space="preserve">
+      <value>Пещеры Черной горы</value>
+    </data>
+    <data name="Map646" xml:space="preserve">
+      <value>Подземье</value>
+    </data>
+    <data name="Map647" xml:space="preserve">
+      <value>Транспорт: из Оргриммара в Громовой Утес</value>
+    </data>
+    <data name="Map648" xml:space="preserve">
+      <value>Затерянные острова</value>
+    </data>
+    <data name="Map649" xml:space="preserve">
+      <value>Испытание крестоносца</value>
+    </data>
+    <data name="Map650" xml:space="preserve">
+      <value>Испытание чемпиона</value>
+    </data>
+    <data name="Map651" xml:space="preserve">
+      <value>ElevatorSpawnTest</value>
+    </data>
+    <data name="Map654" xml:space="preserve">
+      <value>Гилнеас</value>
+    </data>
+    <data name="Map655" xml:space="preserve">
+      <value>GilneasPhase1</value>
+    </data>
+    <data name="Map656" xml:space="preserve">
+      <value>GilneasPhase2</value>
+    </data>
+    <data name="Map657" xml:space="preserve">
+      <value>Вершина Смерча</value>
+    </data>
+    <data name="Map658" xml:space="preserve">
+      <value>Яма Сарона</value>
+    </data>
+    <data name="Map659" xml:space="preserve">
+      <value>Извержение вулкана Затерянных островов</value>
+    </data>
+    <data name="Map660" xml:space="preserve">
+      <value>Купол Подземья</value>
+    </data>
+    <data name="Map661" xml:space="preserve">
+      <value>Затерянные острова макет города</value>
+    </data>
+    <data name="Map662" xml:space="preserve">
+      <value>Транспорт: вайш&apos;ирский корабль Альянса</value>
+    </data>
+    <data name="Map668" xml:space="preserve">
+      <value>Залы Отражений</value>
+    </data>
+    <data name="Map669" xml:space="preserve">
+      <value>Твердыня Крыла Тьмы</value>
+    </data>
+    <data name="Map670" xml:space="preserve">
+      <value>Грим Батол</value>
+    </data>
+    <data name="Map671" xml:space="preserve">
+      <value>Сумеречный бастион</value>
+    </data>
+    <data name="Map672" xml:space="preserve">
+      <value>Транспорт: Усмиритель небес (рейды в Цитадели Ледяной Короны)</value>
+    </data>
+    <data name="Map673" xml:space="preserve">
+      <value>Транспорт: Молот Оргрима (рейды в Цитадели Ледяной Короны)</value>
+    </data>
+    <data name="Map674" xml:space="preserve">
+      <value>Транспорт: корабль до Вайш&apos;ира</value>
+    </data>
+    <data name="Map712" xml:space="preserve">
+      <value>Транспорт: Усмиритель небес (подземелья Цитадели Ледяной Короны)</value>
+    </data>
+    <data name="Map713" xml:space="preserve">
+      <value>Транспорт: Молот Оргрима (подземелья Цитадели Ледяной Короны)</value>
+    </data>
+    <data name="Map718" xml:space="preserve">
+      <value>Транспорт: &quot;Могучий ветер&quot; (Цитадель Ледяной Короны, рейд)</value>
+    </data>
+    <data name="Map719" xml:space="preserve">
+      <value>Гора Хиджал, фаза 1</value>
+    </data>
+    <data name="Map720" xml:space="preserve">
+      <value>Огненные Просторы</value>
+    </data>
+    <data name="Map721" xml:space="preserve">
+      <value>Рельеф Огненных Просторов</value>
+    </data>
+    <data name="Map723" xml:space="preserve">
+      <value>Штормград</value>
+    </data>
+    <data name="Map724" xml:space="preserve">
+      <value>Рубиновое святилище</value>
+    </data>
+    <data name="Map725" xml:space="preserve">
+      <value>Каменные Недра</value>
+    </data>
+    <data name="Map726" xml:space="preserve">
+      <value>Два Пика</value>
+    </data>
+    <data name="Map727" xml:space="preserve">
+      <value>Алмазная шахта</value>
+    </data>
+    <data name="Map728" xml:space="preserve">
+      <value>Битва за Гилнеас (старая карта города)</value>
+    </data>
+    <data name="Map730" xml:space="preserve">
+      <value>Область Водоворота</value>
+    </data>
+    <data name="Map731" xml:space="preserve">
+      <value>Бомба Каменного Когтя</value>
+    </data>
+    <data name="Map732" xml:space="preserve">
+      <value>Тол Барад</value>
+    </data>
+    <data name="Map734" xml:space="preserve">
+      <value>Терраса Ан&apos;Киража</value>
+    </data>
+    <data name="Map736" xml:space="preserve">
+      <value>Сумеречное нагорье, фаза Драконьей Пасти</value>
+    </data>
+    <data name="Map738" xml:space="preserve">
+      <value>Корабль до Вайш&apos;ира (Оргриммар -&gt; Вайш&apos;ир)</value>
+    </data>
+    <data name="Map739" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Horde</value>
+    </data>
+    <data name="Map740" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Alliance</value>
+    </data>
+    <data name="Map741" xml:space="preserve">
+      <value>Сумеречное нагорье транспорт Орды</value>
+    </data>
+    <data name="Map742" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Horde - Circling Abyssal Maw</value>
+    </data>
+    <data name="Map743" xml:space="preserve">
+      <value>Vashj&apos;ir Sub - Alliance circling Abyssal Maw</value>
+    </data>
+    <data name="Map746" xml:space="preserve">
+      <value>Ульдум фаза оазиса</value>
+    </data>
+    <data name="Map747" xml:space="preserve">
+      <value>Транспорт: боевой корабль Подземья</value>
+    </data>
+    <data name="Map748" xml:space="preserve">
+      <value>Транспорт: подъемник от Ониксии к Нефариану</value>
+    </data>
+    <data name="Map749" xml:space="preserve">
+      <value>Транспорт: движущийся боевой корабль Гилнеаса</value>
+    </data>
+    <data name="Map750" xml:space="preserve">
+      <value>Транспорт: статичный боевой корабль Гилнеаса</value>
+    </data>
+    <data name="Map751" xml:space="preserve">
+      <value>Красногорье - орочья бомба</value>
+    </data>
+    <data name="Map752" xml:space="preserve">
+      <value>Красногорье - первая фаза, мост</value>
+    </data>
+    <data name="Map753" xml:space="preserve">
+      <value>Красногорье - вторая фаза, мост</value>
+    </data>
+    <data name="Map754" xml:space="preserve">
+      <value>Трон Четырех Ветров</value>
+    </data>
+    <data name="Map755" xml:space="preserve">
+      <value>Затерянный город Тол&apos;вир</value>
+    </data>
+    <data name="Map757" xml:space="preserve">
+      <value>Крепость Барадин</value>
+    </data>
+    <data name="Map759" xml:space="preserve">
+      <value>Uldum Phased Entrance</value>
+    </data>
+    <data name="Map760" xml:space="preserve">
+      <value>Twilight Highlands Phased Entrance</value>
+    </data>
+    <data name="Map761" xml:space="preserve">
+      <value>Битва за Гилнеас</value>
+    </data>
+    <data name="Map762" xml:space="preserve">
+      <value>Twilight Highlands Zeppelin 1</value>
+    </data>
+    <data name="Map763" xml:space="preserve">
+      <value>Twilight Highlands Zeppelin 2</value>
+    </data>
+    <data name="Map764" xml:space="preserve">
+      <value>Uldum - Phase Wrecked Camp</value>
+    </data>
+    <data name="Map765" xml:space="preserve">
+      <value>Krazzworks Attack Zeppelin</value>
+    </data>
+    <data name="Map766" xml:space="preserve">
+      <value>Transport: Gilneas Moving Gunship 02</value>
+    </data>
+    <data name="Map767" xml:space="preserve">
+      <value>Transport: Gilneas Moving Gunship 03</value>
+    </data>
+    <data name="Map859" xml:space="preserve">
+      <value>Зул&apos;Гуруб</value>
+    </data>
+    <data name="Map861" xml:space="preserve">
+      <value>Огненная передовая</value>
+    </data>
+    <data name="Map930" xml:space="preserve">
+      <value>Остров Алькац</value>
+    </data>
+    <data name="Map938" xml:space="preserve">
+      <value>Конец Времен</value>
+    </data>
+    <data name="Map939" xml:space="preserve">
+      <value>Источник Вечности</value>
+    </data>
+    <data name="Map940" xml:space="preserve">
+      <value>Время Сумерек</value>
+    </data>
+    <data name="Map951" xml:space="preserve">
+      <value>Нексус, получение посоха</value>
+    </data>
+    <data name="Map967" xml:space="preserve">
+      <value>Душа Дракона</value>
+    </data>
+    <data name="Map968" xml:space="preserve">
+      <value>Око Бури (рейтинговое)</value>
+    </data>
+    <data name="Map974" xml:space="preserve">
+      <value>Ярмарка Новолуния</value>
+    </data>
+    <data name="Map977" xml:space="preserve">
+      <value>Водоворот, бой со Смертокрылом</value>
+    </data>
+    <data name="Map980" xml:space="preserve">
+      <value>Арена Тол&apos;вира</value>
+    </data>
+</root>

@@ -61,6 +61,11 @@
     <Compile Include="Game\CreatureEnums.cs" />
     <Compile Include="Game\CurrencyTypes.cs" />
     <Compile Include="CustomPacket.cs" />
+    <Compile Include="Game\CurrencyTypesNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurrencyTypesNames.resx</DependentUpon>
+    </Compile>
     <Compile Include="Game\Difficulty.cs" />
     <Compile Include="Disassembly.cs" />
     <Compile Include="Game\Emote.cs" />
@@ -69,7 +74,18 @@
     <Compile Include="Game\GuildEnums.cs" />
     <Compile Include="Game\ItemEnums.cs" />
     <Compile Include="Game\LFGDungeons.cs" />
+    <Compile Include="Game\LFGDungeonsNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LFGDungeonsNames.resx</DependentUpon>
+    </Compile>
     <Compile Include="Game\Mail.cs" />
+    <Compile Include="Game\Maps.cs" />
+    <Compile Include="Game\MapsNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MapsNames.resx</DependentUpon>
+    </Compile>
     <Compile Include="Game\Money.cs" />
     <Compile Include="Game\Aura.cs" />
     <Compile Include="Game\AuraCollection.cs" />
@@ -82,6 +98,11 @@
     <Compile Include="Game\WowCorpse.cs" />
     <Compile Include="Game\WowDynamicObject.cs" />
     <Compile Include="Game\WowGameObject.cs" />
+    <Compile Include="Game\WowGuidStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WowGuidStrings.resx</DependentUpon>
+    </Compile>
     <Compile Include="Game\WowItem.cs" />
     <Compile Include="Game\WowObject.cs" />
     <Compile Include="Game\WowPlayer.cs" />
@@ -321,6 +342,26 @@
     <Compile Include="WowPacketParserAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Game\CurrencyTypesNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CurrencyTypesNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\CurrencyTypesNames.ru.resx" />
+    <EmbeddedResource Include="Game\LFGDungeonsNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LFGDungeonsNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\LFGDungeonsNames.ru.resx" />
+    <EmbeddedResource Include="Game\MapsNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MapsNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\MapsNames.ru.resx" />
+    <EmbeddedResource Include="Game\WowGuidStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WowGuidStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\WowGuidStrings.ru.resx" />
     <EmbeddedResource Include="Strings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Currency1" xml:space="preserve">
+    <value>Currency Token Test Token 4</value>
+  </data>
+  <data name="Currency2" xml:space="preserve">
+    <value>Currency Token Test Token 2</value>
+  </data>
+  <data name="Currency4" xml:space="preserve">
+    <value>Currency Token Test Token 5</value>
+  </data>
+  <data name="Currency42" xml:space="preserve">
+    <value>Badge of Justice</value>
+  </data>
+  <data name="Currency61" xml:space="preserve">
+    <value>Dalaran Jewelcrafter's Token</value>
+  </data>
+  <data name="Currency81" xml:space="preserve">
+    <value>Dalaran Cooking Award</value>
+  </data>
+  <data name="Currency241" xml:space="preserve">
+    <value>Champion's Seal</value>
+  </data>
+  <data name="Currency402" xml:space="preserve">
+    <value>Chef's Award</value>
+  </data>
+  <data name="Currency416" xml:space="preserve">
+    <value>Mark of the World Tree</value>
+  </data>
+  <data name="Currency515" xml:space="preserve">
+    <value>Darkmoon Prize Ticket</value>
+  </data>
+  <data name="Currency103" xml:space="preserve">
+    <value>Arena Points</value>
+  </data>
+  <data name="Currency104" xml:space="preserve">
+    <value>Honor Points DEPRECATED</value>
+  </data>
+  <data name="Currency121" xml:space="preserve">
+    <value>Alterac Valley Mark of Honor</value>
+  </data>
+  <data name="Currency122" xml:space="preserve">
+    <value>Arathi Basin Mark of Honor</value>
+  </data>
+  <data name="Currency123" xml:space="preserve">
+    <value>Eye of the Storm Mark of Honor</value>
+  </data>
+  <data name="Currency124" xml:space="preserve">
+    <value>Strand of the Ancients Mark of Honor</value>
+  </data>
+  <data name="Currency125" xml:space="preserve">
+    <value>Warsong Gulch Mark of Honor</value>
+  </data>
+  <data name="Currency126" xml:space="preserve">
+    <value>Wintergrasp Mark of Honor</value>
+  </data>
+  <data name="Currency161" xml:space="preserve">
+    <value>Stone Keeper's Shard</value>
+  </data>
+  <data name="Currency181" xml:space="preserve">
+    <value>Honor Points DEPRECATED2</value>
+  </data>
+  <data name="Currency201" xml:space="preserve">
+    <value>Venture Coin</value>
+  </data>
+  <data name="Currency321" xml:space="preserve">
+    <value>Isle of Conquest Mark of Honor</value>
+  </data>
+  <data name="Currency390" xml:space="preserve">
+    <value>Conquest Points</value>
+  </data>
+  <data name="Currency391" xml:space="preserve">
+    <value>Tol Barad Commendation</value>
+  </data>
+  <data name="Currency392" xml:space="preserve">
+    <value>Honor Points</value>
+  </data>
+  <data name="Currency101" xml:space="preserve">
+    <value>Emblem of Heroism</value>
+  </data>
+  <data name="Currency102" xml:space="preserve">
+    <value>Emblem of Valor</value>
+  </data>
+  <data name="Currency221" xml:space="preserve">
+    <value>Emblem of Conquest</value>
+  </data>
+  <data name="Currency301" xml:space="preserve">
+    <value>Emblem of Triumph</value>
+  </data>
+  <data name="Currency341" xml:space="preserve">
+    <value>Emblem of Frost</value>
+  </data>
+  <data name="Currency395" xml:space="preserve">
+    <value>Justice Points</value>
+  </data>
+  <data name="Currency396" xml:space="preserve">
+    <value>Valor Points</value>
+  </data>
+  <data name="Currency614" xml:space="preserve">
+    <value>Mote of Darkness</value>
+  </data>
+  <data name="Currency615" xml:space="preserve">
+    <value>Essence of Corrupted Deathwing</value>
+  </data>
+  <data name="Currency22" xml:space="preserve">
+    <value>Birmingham Test Item 3</value>
+  </data>
+  <data name="Currency361" xml:space="preserve">
+    <value>Illustrious Jewelcrafter's Token</value>
+  </data>
+  <data name="Currency384" xml:space="preserve">
+    <value>Dwarf Archaeology Fragment</value>
+  </data>
+  <data name="Currency385" xml:space="preserve">
+    <value>Troll Archaeology Fragment</value>
+  </data>
+  <data name="Currency393" xml:space="preserve">
+    <value>Fossil Archaeology Fragment</value>
+  </data>
+  <data name="Currency394" xml:space="preserve">
+    <value>Night Elf Archaeology Fragment</value>
+  </data>
+  <data name="Currency397" xml:space="preserve">
+    <value>Orc Archaeology Fragment</value>
+  </data>
+  <data name="Currency398" xml:space="preserve">
+    <value>Draenei Archaeology Fragment</value>
+  </data>
+  <data name="Currency399" xml:space="preserve">
+    <value>Vrykul Archaeology Fragment</value>
+  </data>
+  <data name="Currency400" xml:space="preserve">
+    <value>Nerubian Archaeology Fragment</value>
+  </data>
+  <data name="Currency401" xml:space="preserve">
+    <value>Tol'vir Archaeology Fragment</value>
+  </data>
+  <data name="Currency483" xml:space="preserve">
+    <value>Conquest Arena Meta</value>
+  </data>
+  <data name="Currency484" xml:space="preserve">
+    <value>Conquest BG Meta</value>
+  </data>
+  <data name="Currency141" xml:space="preserve">
+    <value>zzzOLDDaily Quest Faction Token</value>
+  </data>
+</root>

@@ -21,20 +21,34 @@ namespace Kamilla.Network.Protocols.Wow.Game
         Unknown
     }
 
+    [LocalizedNameContainer(typeof(WowGuidStrings))]
     public enum WowGuidType : int
     {
+        [LocalizedName("Item")]
         Item,
+        [LocalizedName("Player")]
         Player,
+        [LocalizedName("GameObject")]
         GameObject,
+        [LocalizedName("Transport")]
         Transport,
+        [LocalizedName("Creature")]
         Creature,
+        [LocalizedName("Pet")]
         Pet,
+        [LocalizedName("Vehicle")]
         Vehicle,
+        [LocalizedName("DynamicObject")]
         DynamicObject,
+        [LocalizedName("Corpse")]
         Corpse,
+        [LocalizedName("TransportMo")]
         TransportMo,
+        [LocalizedName("Group")]
         Group,
+        [LocalizedName("Guild")]
         Guild,
+        [LocalizedName("BattlefieldQueue")]
         BattlefieldQueue,
         //Instance,
         Unknown
@@ -248,25 +262,32 @@ namespace Kamilla.Network.Protocols.Wow.Game
 
         public bool IsEmpty { get { return m_raw == 0UL; } }
 
-        private static readonly string[,] formats = new string[2, 2]
-        {
-            // Without entry
-            { "({2}, Counter: {0})", "({2}, Counter: {0}, Raw: {3:X16})" },
-
-            // With entry
-            { "({2}, {4}: {1}, Counter: {0})", "({2}, {4}: {1}, Counter: {0}, Raw: {3:X16})" },
-        };
+        static string[,] formats;
 
         public override string ToString()
         {
             if (this.IsEmpty)
-                return "(No Guid)";
+                return WowGuidStrings.NoGuid;
+
+            if (formats == null)
+            {
+                formats = new string[2, 2]
+                {
+                    // Without entry
+                    { WowGuidStrings.GuidFormat0, WowGuidStrings.GuidFormat1 },
+
+                    // With entry
+                    { WowGuidStrings.GuidFormat2, WowGuidStrings.GuidFormat3 },
+                };
+            }
+
+            var type = this.Type;
 
             return string.Format(CultureInfo.InvariantCulture,
                 formats[this.HasEntry ? 1 : 0, PrintRaw ? 1 : 0],
                 Counter, Entry,
-                Type == WowGuidType.Unknown ? Type.ToString() + this.High.ToString("X3") : Type.ToString(),
-                Raw, this.IsPet ? "Pet Number" : "Entry");
+                type == WowGuidType.Unknown ? this.High.ToString("X3") : type.GetLocalizedName(),
+                Raw, this.IsPet ? WowGuidStrings.GuidPetNumber : WowGuidStrings.GuidEntry);
         }
 
         static WowGuid()
