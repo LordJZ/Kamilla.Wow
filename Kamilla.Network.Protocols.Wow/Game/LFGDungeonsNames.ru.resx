@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+	
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+    <data name="Dungeon1" xml:space="preserve">
+      <value>Пещеры Стенаний</value>
+    </data>
+    <data name="Dungeon2" xml:space="preserve">
+      <value>Некроситет</value>
+    </data>
+    <data name="Dungeon4" xml:space="preserve">
+      <value>Огненная Пропасть</value>
+    </data>
+    <data name="Dungeon6" xml:space="preserve">
+      <value>Мертвые копи</value>
+    </data>
+    <data name="Dungeon8" xml:space="preserve">
+      <value>Крепость Темного Клыка</value>
+    </data>
+    <data name="Dungeon10" xml:space="preserve">
+      <value>Непроглядная Пучина</value>
+    </data>
+    <data name="Dungeon12" xml:space="preserve">
+      <value>Тюрьма Штормграда</value>
+    </data>
+    <data name="Dungeon14" xml:space="preserve">
+      <value>Гномреган</value>
+    </data>
+    <data name="Dungeon16" xml:space="preserve">
+      <value>Лабиринты Иглошкурых</value>
+    </data>
+    <data name="Dungeon18" xml:space="preserve">
+      <value>Монастырь Алого ордена - кладбище</value>
+    </data>
+    <data name="Dungeon20" xml:space="preserve">
+      <value>Курганы Иглошкурых</value>
+    </data>
+    <data name="Dungeon22" xml:space="preserve">
+      <value>Ульдаман</value>
+    </data>
+    <data name="Dungeon24" xml:space="preserve">
+      <value>Зул'Фаррак</value>
+    </data>
+    <data name="Dungeon26" xml:space="preserve">
+      <value>Мародон - Зловонная пещера</value>
+    </data>
+    <data name="Dungeon28" xml:space="preserve">
+      <value>Затонувший храм</value>
+    </data>
+    <data name="Dungeon30" xml:space="preserve">
+      <value>Глубины Черной горы - Тюремный блок</value>
+    </data>
+    <data name="Dungeon32" xml:space="preserve">
+      <value>Нижняя часть Черной горы</value>
+    </data>
+    <data name="Dungeon34" xml:space="preserve">
+      <value>Забытый Город - Квартал Криводревов</value>
+    </data>
+    <data name="Dungeon36" xml:space="preserve">
+      <value>Забытый Город - Центральный сад</value>
+    </data>
+    <data name="Dungeon38" xml:space="preserve">
+      <value>Забытый Город - Палаты Гордока</value>
+    </data>
+    <data name="Dungeon40" xml:space="preserve">
+      <value>Стратхольм - Главные врата</value>
+    </data>
+    <data name="Dungeon136" xml:space="preserve">
+      <value>Бастионы Адского Пламени (норм.)</value>
+    </data>
+    <data name="Dungeon137" xml:space="preserve">
+      <value>Кузня Крови (норм.)</value>
+    </data>
+    <data name="Dungeon138" xml:space="preserve">
+      <value>Разрушенные залы (норм.)</value>
+    </data>
+    <data name="Dungeon140" xml:space="preserve">
+      <value>Узилище (норм.)</value>
+    </data>
+    <data name="Dungeon146" xml:space="preserve">
+      <value>Нижетопь (норм.)</value>
+    </data>
+    <data name="Dungeon147" xml:space="preserve">
+      <value>Паровое подземелье (норм.)</value>
+    </data>
+    <data name="Dungeon148" xml:space="preserve">
+      <value>Гробницы Маны (норм.)</value>
+    </data>
+    <data name="Dungeon149" xml:space="preserve">
+      <value>Аукенайские гробницы (норм.)</value>
+    </data>
+    <data name="Dungeon150" xml:space="preserve">
+      <value>Сетеккские залы (норм.)</value>
+    </data>
+    <data name="Dungeon151" xml:space="preserve">
+      <value>Темный лабиринт (норм.)</value>
+    </data>
+    <data name="Dungeon163" xml:space="preserve">
+      <value>Монастырь Алого ордена - Оружейная</value>
+    </data>
+    <data name="Dungeon164" xml:space="preserve">
+      <value>Монастырь Алого ордена - Собор</value>
+    </data>
+    <data name="Dungeon165" xml:space="preserve">
+      <value>Монастырь Алого ордена - Библиотека</value>
+    </data>
+    <data name="Dungeon170" xml:space="preserve">
+      <value>Побег из Дарнхольда (норм.)</value>
+    </data>
+    <data name="Dungeon171" xml:space="preserve">
+      <value>Открытие Темного портала (норм.)</value>
+    </data>
+    <data name="Dungeon172" xml:space="preserve">
+      <value>Механар (норм.)</value>
+    </data>
+    <data name="Dungeon173" xml:space="preserve">
+      <value>Ботаника (норм.)</value>
+    </data>
+    <data name="Dungeon174" xml:space="preserve">
+      <value>Аркатрац (норм.)</value>
+    </data>
+    <data name="Dungeon178" xml:space="preserve">
+      <value>Аукенайские гробницы (героич.)</value>
+    </data>
+    <data name="Dungeon179" xml:space="preserve">
+      <value>Гробницы Маны (героич.)</value>
+    </data>
+    <data name="Dungeon180" xml:space="preserve">
+      <value>Сетеккские залы (героич.)</value>
+    </data>
+    <data name="Dungeon181" xml:space="preserve">
+      <value>Темный лабиринт (героич.)</value>
+    </data>
+    <data name="Dungeon182" xml:space="preserve">
+      <value>Открытие Темного портала (героич.)</value>
+    </data>
+    <data name="Dungeon183" xml:space="preserve">
+      <value>Побег из Дарнхольда (героич.)</value>
+    </data>
+    <data name="Dungeon184" xml:space="preserve">
+      <value>Узилище (героич.)</value>
+    </data>
+    <data name="Dungeon185" xml:space="preserve">
+      <value>Паровое подземелье (героич.)</value>
+    </data>
+    <data name="Dungeon186" xml:space="preserve">
+      <value>Нижетопь (героич.)</value>
+    </data>
+    <data name="Dungeon187" xml:space="preserve">
+      <value>Кузня Крови (героич.)</value>
+    </data>
+    <data name="Dungeon188" xml:space="preserve">
+      <value>Бастионы Адского Пламени (героич.)</value>
+    </data>
+    <data name="Dungeon189" xml:space="preserve">
+      <value>Разрушенные залы (героич.)</value>
+    </data>
+    <data name="Dungeon190" xml:space="preserve">
+      <value>Аркатрац (героич.)</value>
+    </data>
+    <data name="Dungeon191" xml:space="preserve">
+      <value>Ботаника (героич.)</value>
+    </data>
+    <data name="Dungeon192" xml:space="preserve">
+      <value>Механар (героич.)</value>
+    </data>
+    <data name="Dungeon198" xml:space="preserve">
+      <value>Терраса Магистров (норм.)</value>
+    </data>
+    <data name="Dungeon201" xml:space="preserve">
+      <value>Терраса Магистров (героич.)</value>
+    </data>
+    <data name="Dungeon202" xml:space="preserve">
+      <value>Крепость Утгард (норм.)</value>
+    </data>
+    <data name="Dungeon203" xml:space="preserve">
+      <value>Вершина Утгард (норм.)</value>
+    </data>
+    <data name="Dungeon204" xml:space="preserve">
+      <value>Азжол-Неруб (норм.)</value>
+    </data>
+    <data name="Dungeon205" xml:space="preserve">
+      <value>Вершина Утгард (героич.)</value>
+    </data>
+    <data name="Dungeon206" xml:space="preserve">
+      <value>Окулус (норм.)</value>
+    </data>
+    <data name="Dungeon207" xml:space="preserve">
+      <value>Чертоги Молний (норм.)</value>
+    </data>
+    <data name="Dungeon208" xml:space="preserve">
+      <value>Чертоги Камня (норм.)</value>
+    </data>
+    <data name="Dungeon209" xml:space="preserve">
+      <value>Очищение Стратхольма (норм.)</value>
+    </data>
+    <data name="Dungeon210" xml:space="preserve">
+      <value>Очищение Стратхольма (героич.)</value>
+    </data>
+    <data name="Dungeon211" xml:space="preserve">
+      <value>Окулус (героич.)</value>
+    </data>
+    <data name="Dungeon212" xml:space="preserve">
+      <value>Чертоги Молний (героич.)</value>
+    </data>
+    <data name="Dungeon213" xml:space="preserve">
+      <value>Чертоги Камня (героич.)</value>
+    </data>
+    <data name="Dungeon214" xml:space="preserve">
+      <value>Крепость Драк'Тарон (норм.)</value>
+    </data>
+    <data name="Dungeon215" xml:space="preserve">
+      <value>Крепость Драк'Тарон (героич.)</value>
+    </data>
+    <data name="Dungeon216" xml:space="preserve">
+      <value>Гундрак (норм.)</value>
+    </data>
+    <data name="Dungeon217" xml:space="preserve">
+      <value>Гундрак (героич.)</value>
+    </data>
+    <data name="Dungeon218" xml:space="preserve">
+      <value>Ан'кахет: Старое Королевство (норм.)</value>
+    </data>
+    <data name="Dungeon219" xml:space="preserve">
+      <value>Ан'кахет: Старое Королевство (героич.)</value>
+    </data>
+    <data name="Dungeon220" xml:space="preserve">
+      <value>Аметистовая крепость (норм.)</value>
+    </data>
+    <data name="Dungeon221" xml:space="preserve">
+      <value>Аметистовая крепость (героич.)</value>
+    </data>
+    <data name="Dungeon225" xml:space="preserve">
+      <value>Нексус (норм.)</value>
+    </data>
+    <data name="Dungeon226" xml:space="preserve">
+      <value>Нексус (героич.)</value>
+    </data>
+    <data name="Dungeon241" xml:space="preserve">
+      <value>Азжол-Неруб (героич.)</value>
+    </data>
+    <data name="Dungeon242" xml:space="preserve">
+      <value>Крепость Утгард (героич.)</value>
+    </data>
+    <data name="Dungeon245" xml:space="preserve">
+      <value>Испытание чемпиона (норм.)</value>
+    </data>
+    <data name="Dungeon249" xml:space="preserve">
+      <value>Испытание чемпиона (героич.)</value>
+    </data>
+    <data name="Dungeon251" xml:space="preserve">
+      <value>Кузня Душ (норм.)</value>
+    </data>
+    <data name="Dungeon252" xml:space="preserve">
+      <value>Кузня Душ (героич.)</value>
+    </data>
+    <data name="Dungeon253" xml:space="preserve">
+      <value>Яма Сарона (норм.)</value>
+    </data>
+    <data name="Dungeon254" xml:space="preserve">
+      <value>Яма Сарона (героич.)</value>
+    </data>
+    <data name="Dungeon255" xml:space="preserve">
+      <value>Залы Отражений (норм.)</value>
+    </data>
+    <data name="Dungeon256" xml:space="preserve">
+      <value>Залы Отражений (героич.)</value>
+    </data>
+    <data name="Dungeon272" xml:space="preserve">
+      <value>Мародон - Оскверненный грот</value>
+    </data>
+    <data name="Dungeon273" xml:space="preserve">
+      <value>Мародон - Поющие водопады</value>
+    </data>
+    <data name="Dungeon274" xml:space="preserve">
+      <value>Стратхольм - Черный ход</value>
+    </data>
+    <data name="Dungeon276" xml:space="preserve">
+      <value>Глубины Черной горы - Верхний город</value>
+    </data>
+    <data name="Dungeon285" xml:space="preserve">
+      <value>Всадник без головы</value>
+    </data>
+    <data name="Dungeon286" xml:space="preserve">
+      <value>Повелитель Холода Ахун</value>
+    </data>
+    <data name="Dungeon287" xml:space="preserve">
+      <value>Корен Худовар</value>
+    </data>
+    <data name="Dungeon288" xml:space="preserve">
+      <value>Королевская химическая компания</value>
+    </data>
+    <data name="Dungeon296" xml:space="preserve">
+      <value>Великий посол Огнехлыст</value>
+    </data>
+    <data name="Dungeon297" xml:space="preserve">
+      <value>Кронпринцесса Терадрас</value>
+    </data>
+    <data name="Dungeon298" xml:space="preserve">
+      <value>Кай'жу Газ'рилла</value>
+    </data>
+    <data name="Dungeon299" xml:space="preserve">
+      <value>Принц Сарсарун</value>
+    </data>
+    <data name="Dungeon302" xml:space="preserve">
+      <value>Трон Приливов (норм.)</value>
+    </data>
+    <data name="Dungeon303" xml:space="preserve">
+      <value>Пещеры Черной горы (норм.)</value>
+    </data>
+    <data name="Dungeon304" xml:space="preserve">
+      <value>Грим Батол (норм.)</value>
+    </data>
+    <data name="Dungeon305" xml:space="preserve">
+      <value>Чертоги Созидания (норм.)</value>
+    </data>
+    <data name="Dungeon306" xml:space="preserve">
+      <value>Кай'жу Газ'рилла</value>
+    </data>
+    <data name="Dungeon307" xml:space="preserve">
+      <value>Каменные Недра (норм.)</value>
+    </data>
+    <data name="Dungeon308" xml:space="preserve">
+      <value>Великий посол Огнехлыст</value>
+    </data>
+    <data name="Dungeon309" xml:space="preserve">
+      <value>Кронпринцесса Терадрас</value>
+    </data>
+    <data name="Dungeon310" xml:space="preserve">
+      <value>Принц Сарсарун</value>
+    </data>
+    <data name="Dungeon311" xml:space="preserve">
+      <value>Вершина Смерча (норм.)</value>
+    </data>
+    <data name="Dungeon312" xml:space="preserve">
+      <value>Затерянный город Тол'вир (норм.)</value>
+    </data>
+    <data name="Dungeon319" xml:space="preserve">
+      <value>Вершина Смерча (героич.)</value>
+    </data>
+    <data name="Dungeon320" xml:space="preserve">
+      <value>Каменные Недра (героич.)</value>
+    </data>
+    <data name="Dungeon321" xml:space="preserve">
+      <value>Чертоги Созидания (героич.)</value>
+    </data>
+    <data name="Dungeon322" xml:space="preserve">
+      <value>Грим Батол (героич.)</value>
+    </data>
+    <data name="Dungeon323" xml:space="preserve">
+      <value>Пещеры Черной горы (героич.)</value>
+    </data>
+    <data name="Dungeon324" xml:space="preserve">
+      <value>Трон Приливов (героич.)</value>
+    </data>
+    <data name="Dungeon325" xml:space="preserve">
+      <value>Затерянный город Тол'вир (героич.)</value>
+    </data>
+    <data name="Dungeon326" xml:space="preserve">
+      <value>Мертвые копи (героич.)</value>
+    </data>
+    <data name="Dungeon327" xml:space="preserve">
+      <value>Крепость Темного Клыка (героич.)</value>
+    </data>
+    <data name="Dungeon330" xml:space="preserve">
+      <value>Верхняя часть Черной горы</value>
+    </data>
+    <data name="Dungeon334" xml:space="preserve">
+      <value>Зул'Гуруб (героич.)</value>
+    </data>
+    <data name="Dungeon340" xml:space="preserve">
+      <value>Зул'Аман (героич.)</value>
+    </data>
+    <data name="Dungeon416" xml:space="preserve">
+      <value>Осада Храма Драконьего Покоя</value>
+    </data>
+    <data name="Dungeon417" xml:space="preserve">
+      <value>Падение Смертокрыла</value>
+    </data>
+    <data name="Dungeon435" xml:space="preserve">
+      <value>Конец Времен (героич.)</value>
+    </data>
+    <data name="Dungeon437" xml:space="preserve">
+      <value>Источник Вечности (героич.)</value>
+    </data>
+    <data name="Dungeon439" xml:space="preserve">
+      <value>Время Сумерек (героич.)</value>
+    </data>
+    <data name="Dungeon46" xml:space="preserve">
+      <value>Логово Ониксии (10)</value>
+    </data>
+    <data name="Dungeon48" xml:space="preserve">
+      <value>Огненные Недра</value>
+    </data>
+    <data name="Dungeon50" xml:space="preserve">
+      <value>Логово Крыла Тьмы</value>
+    </data>
+    <data name="Dungeon159" xml:space="preserve">
+      <value>Наксрамас (10)</value>
+    </data>
+    <data name="Dungeon160" xml:space="preserve">
+      <value>Руины Ан'Киража</value>
+    </data>
+    <data name="Dungeon161" xml:space="preserve">
+      <value>Храм Ан'Киража</value>
+    </data>
+    <data name="Dungeon175" xml:space="preserve">
+      <value>Каражан</value>
+    </data>
+    <data name="Dungeon176" xml:space="preserve">
+      <value>Логово Магтеридона</value>
+    </data>
+    <data name="Dungeon177" xml:space="preserve">
+      <value>Логово Груула</value>
+    </data>
+    <data name="Dungeon193" xml:space="preserve">
+      <value>Крепость Бурь</value>
+    </data>
+    <data name="Dungeon194" xml:space="preserve">
+      <value>Змеиное святилище</value>
+    </data>
+    <data name="Dungeon195" xml:space="preserve">
+      <value>Прошлое Хиджала</value>
+    </data>
+    <data name="Dungeon196" xml:space="preserve">
+      <value>Черный храм</value>
+    </data>
+    <data name="Dungeon199" xml:space="preserve">
+      <value>Солнечный Колодец</value>
+    </data>
+    <data name="Dungeon223" xml:space="preserve">
+      <value>Око Вечности (10)</value>
+    </data>
+    <data name="Dungeon224" xml:space="preserve">
+      <value>Обсидиановое святилище (10)</value>
+    </data>
+    <data name="Dungeon227" xml:space="preserve">
+      <value>Наксрамас (25)</value>
+    </data>
+    <data name="Dungeon237" xml:space="preserve">
+      <value>Око Вечности (25)</value>
+    </data>
+    <data name="Dungeon238" xml:space="preserve">
+      <value>Обсидиановое святилище (25)</value>
+    </data>
+    <data name="Dungeon239" xml:space="preserve">
+      <value>Склеп Аркавона (10)</value>
+    </data>
+    <data name="Dungeon240" xml:space="preserve">
+      <value>Склеп Аркавона (25)</value>
+    </data>
+    <data name="Dungeon243" xml:space="preserve">
+      <value>Ульдуар (10)</value>
+    </data>
+    <data name="Dungeon244" xml:space="preserve">
+      <value>Ульдуар (25)</value>
+    </data>
+    <data name="Dungeon246" xml:space="preserve">
+      <value>Испытание крестоносца (10)</value>
+    </data>
+    <data name="Dungeon247" xml:space="preserve">
+      <value>Испытание великого крестоносца (10)</value>
+    </data>
+    <data name="Dungeon248" xml:space="preserve">
+      <value>Испытание крестоносца (25)</value>
+    </data>
+    <data name="Dungeon250" xml:space="preserve">
+      <value>Испытание великого крестоносца (25)</value>
+    </data>
+    <data name="Dungeon257" xml:space="preserve">
+      <value>Логово Ониксии (25)</value>
+    </data>
+    <data name="Dungeon279" xml:space="preserve">
+      <value>Цитадель Ледяной Короны (10)</value>
+    </data>
+    <data name="Dungeon280" xml:space="preserve">
+      <value>Цитадель Ледяной Короны (25)</value>
+    </data>
+    <data name="Dungeon293" xml:space="preserve">
+      <value>Рубиновое святилище (10)</value>
+    </data>
+    <data name="Dungeon294" xml:space="preserve">
+      <value>Рубиновое святилище (25)</value>
+    </data>
+    <data name="Dungeon313" xml:space="preserve">
+      <value>Твердыня Крыла Тьмы (10)</value>
+    </data>
+    <data name="Dungeon314" xml:space="preserve">
+      <value>Твердыня Крыла Тьмы (25)</value>
+    </data>
+    <data name="Dungeon315" xml:space="preserve">
+      <value>Сумеречный бастион (10)</value>
+    </data>
+    <data name="Dungeon316" xml:space="preserve">
+      <value>Сумеречный бастион (25)</value>
+    </data>
+    <data name="Dungeon317" xml:space="preserve">
+      <value>Трон Четырех Ветров (10)</value>
+    </data>
+    <data name="Dungeon318" xml:space="preserve">
+      <value>Трон Четырех Ветров (25)</value>
+    </data>
+    <data name="Dungeon328" xml:space="preserve">
+      <value>Крепость Барадин (10)</value>
+    </data>
+    <data name="Dungeon329" xml:space="preserve">
+      <value>Крепость Барадин (25)</value>
+    </data>
+    <data name="Dungeon358" xml:space="preserve">
+      <value>Рейтинговое поле боя 10 на 10 игроков</value>
+    </data>
+    <data name="Dungeon361" xml:space="preserve">
+      <value>Огненные Просторы (10)</value>
+    </data>
+    <data name="Dungeon362" xml:space="preserve">
+      <value>Огненные Просторы (25)</value>
+    </data>
+    <data name="Dungeon447" xml:space="preserve">
+      <value>Душа Дракона (10)</value>
+    </data>
+    <data name="Dungeon448" xml:space="preserve">
+      <value>Душа Дракона (25)</value>
+    </data>
+    <data name="Dungeon58" xml:space="preserve">
+      <value>Элвиннский лес</value>
+    </data>
+    <data name="Dungeon60" xml:space="preserve">
+      <value>Западный Край</value>
+    </data>
+    <data name="Dungeon62" xml:space="preserve">
+      <value>Сумеречный лес</value>
+    </data>
+    <data name="Dungeon64" xml:space="preserve">
+      <value>Дун Морог</value>
+    </data>
+    <data name="Dungeon66" xml:space="preserve">
+      <value>Лок Модан</value>
+    </data>
+    <data name="Dungeon68" xml:space="preserve">
+      <value>Болотина</value>
+    </data>
+    <data name="Dungeon70" xml:space="preserve">
+      <value>Тернистая долина</value>
+    </data>
+    <data name="Dungeon72" xml:space="preserve">
+      <value>Выжженные земли</value>
+    </data>
+    <data name="Dungeon74" xml:space="preserve">
+      <value>Болото Печали</value>
+    </data>
+    <data name="Dungeon76" xml:space="preserve">
+      <value>Красногорье</value>
+    </data>
+    <data name="Dungeon78" xml:space="preserve">
+      <value>Пылающие степи</value>
+    </data>
+    <data name="Dungeon80" xml:space="preserve">
+      <value>Тлеющее ущелье</value>
+    </data>
+    <data name="Dungeon82" xml:space="preserve">
+      <value>Бесплодные земли</value>
+    </data>
+    <data name="Dungeon84" xml:space="preserve">
+      <value>Нагорье Арати</value>
+    </data>
+    <data name="Dungeon86" xml:space="preserve">
+      <value>Предгорья Хилсбрада</value>
+    </data>
+    <data name="Dungeon88" xml:space="preserve">
+      <value>Внутренние земли</value>
+    </data>
+    <data name="Dungeon90" xml:space="preserve">
+      <value>Западные Чумные земли</value>
+    </data>
+    <data name="Dungeon92" xml:space="preserve">
+      <value>Восточные Чумные земли</value>
+    </data>
+    <data name="Dungeon94" xml:space="preserve">
+      <value>Тирисфальские леса</value>
+    </data>
+    <data name="Dungeon96" xml:space="preserve">
+      <value>Серебряный бор</value>
+    </data>
+    <data name="Dungeon98" xml:space="preserve">
+      <value>Альтеракские горы</value>
+    </data>
+    <data name="Dungeon100" xml:space="preserve">
+      <value>Дуротар</value>
+    </data>
+    <data name="Dungeon102" xml:space="preserve">
+      <value>Мулгор</value>
+    </data>
+    <data name="Dungeon104" xml:space="preserve">
+      <value>Степи</value>
+    </data>
+    <data name="Dungeon106" xml:space="preserve">
+      <value>Когтистые горы</value>
+    </data>
+    <data name="Dungeon108" xml:space="preserve">
+      <value>Тысяча Игл</value>
+    </data>
+    <data name="Dungeon110" xml:space="preserve">
+      <value>Пустоши</value>
+    </data>
+    <data name="Dungeon112" xml:space="preserve">
+      <value>Фералас</value>
+    </data>
+    <data name="Dungeon114" xml:space="preserve">
+      <value>Пылевые топи</value>
+    </data>
+    <data name="Dungeon116" xml:space="preserve">
+      <value>Танарис</value>
+    </data>
+    <data name="Dungeon118" xml:space="preserve">
+      <value>Кратер Ун'Горо</value>
+    </data>
+    <data name="Dungeon120" xml:space="preserve">
+      <value>Силитус</value>
+    </data>
+    <data name="Dungeon122" xml:space="preserve">
+      <value>Тельдрассил</value>
+    </data>
+    <data name="Dungeon124" xml:space="preserve">
+      <value>Темные берега</value>
+    </data>
+    <data name="Dungeon126" xml:space="preserve">
+      <value>Ясеневый лес</value>
+    </data>
+    <data name="Dungeon128" xml:space="preserve">
+      <value>Оскверненный лес</value>
+    </data>
+    <data name="Dungeon130" xml:space="preserve">
+      <value>Азшара</value>
+    </data>
+    <data name="Dungeon132" xml:space="preserve">
+      <value>Зимние Ключи</value>
+    </data>
+    <data name="Dungeon152" xml:space="preserve">
+      <value>Полуостров Адского Пламени</value>
+    </data>
+    <data name="Dungeon153" xml:space="preserve">
+      <value>Зангартопь</value>
+    </data>
+    <data name="Dungeon154" xml:space="preserve">
+      <value>Лес Тероккар</value>
+    </data>
+    <data name="Dungeon155" xml:space="preserve">
+      <value>Награнд</value>
+    </data>
+    <data name="Dungeon156" xml:space="preserve">
+      <value>Долина Призрачной Луны</value>
+    </data>
+    <data name="Dungeon157" xml:space="preserve">
+      <value>Острогорье</value>
+    </data>
+    <data name="Dungeon158" xml:space="preserve">
+      <value>Пустоверть</value>
+    </data>
+    <data name="Dungeon166" xml:space="preserve">
+      <value>Леса Вечной Песни</value>
+    </data>
+    <data name="Dungeon167" xml:space="preserve">
+      <value>Остров Лазурной Дымки</value>
+    </data>
+    <data name="Dungeon168" xml:space="preserve">
+      <value>Призрачные земли</value>
+    </data>
+    <data name="Dungeon169" xml:space="preserve">
+      <value>Остров Кровавой Дымки</value>
+    </data>
+    <data name="Dungeon200" xml:space="preserve">
+      <value>Остров Кель'Данас</value>
+    </data>
+    <data name="Dungeon228" xml:space="preserve">
+      <value>Борейская тундра</value>
+    </data>
+    <data name="Dungeon229" xml:space="preserve">
+      <value>Ревущий фьорд</value>
+    </data>
+    <data name="Dungeon230" xml:space="preserve">
+      <value>Седые холмы</value>
+    </data>
+    <data name="Dungeon231" xml:space="preserve">
+      <value>Драконий Погост</value>
+    </data>
+    <data name="Dungeon232" xml:space="preserve">
+      <value>Озеро Ледяных Оков</value>
+    </data>
+    <data name="Dungeon233" xml:space="preserve">
+      <value>Зул'Драк</value>
+    </data>
+    <data name="Dungeon234" xml:space="preserve">
+      <value>Низина Шолазар</value>
+    </data>
+    <data name="Dungeon235" xml:space="preserve">
+      <value>Грозовая Гряда</value>
+    </data>
+    <data name="Dungeon236" xml:space="preserve">
+      <value>Ледяная Корона</value>
+    </data>
+    <data name="Dungeon258" xml:space="preserve">
+      <value>Случайное подземелье классической игры</value>
+    </data>
+    <data name="Dungeon259" xml:space="preserve">
+      <value>Случайное подземелье Burning Crusade (норм.)</value>
+    </data>
+    <data name="Dungeon260" xml:space="preserve">
+      <value>Случайное подземелье Burning Crusade (героич.)</value>
+    </data>
+    <data name="Dungeon261" xml:space="preserve">
+      <value>Случайное подземелье Lich King (норм.)</value>
+    </data>
+    <data name="Dungeon262" xml:space="preserve">
+      <value>Случайное подземелье Lich King (героич.)</value>
+    </data>
+    <data name="Dungeon300" xml:space="preserve">
+      <value>Случайное подземелье Cataclysm (норм.)</value>
+    </data>
+    <data name="Dungeon301" xml:space="preserve">
+      <value>Случайное подземелье Cataclysm (героич.)</value>
+    </data>
+    <data name="Dungeon434" xml:space="preserve">
+      <value>Случайное подземелье "Времени Сумерек" (героич.)</value>
+    </data>
+</root>

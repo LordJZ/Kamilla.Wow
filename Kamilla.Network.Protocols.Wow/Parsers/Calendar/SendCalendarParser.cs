@@ -47,7 +47,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Calendar
             {
                 Maps map = (Maps)Reader.ReadUInt32();
                 Output.AppendFormatLine("Map: {0,-40} ({0,-3:D}) Difficulty: {1} Instance Id: {4,-8:D} Remaining Time: {3}",
-                    map, Reader.ReadUInt32(), Reader.ReadUInt32(), Reader.ReadUInt64());
+                    map.GetLocalizedName(), Reader.ReadUInt32(), Reader.ReadUInt32(), Reader.ReadUInt64());
             }
             Output.AppendLine();
 
@@ -59,7 +59,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Calendar
             {
                 Maps map = (Maps)Reader.ReadUInt32();
                 Output.AppendFormatLine("Map: {0,-40} ({0,-3:D}) Period: {1} Offset: {2}",
-                    map, Reader.ReadUInt32(), Reader.ReadUInt32());
+                    map.GetLocalizedName(), Reader.ReadUInt32(), Reader.ReadUInt32());
             }
 
             uint nOverwriteNodes = Reader.ReadUInt32();
