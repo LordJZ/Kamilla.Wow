@@ -12,8 +12,8 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic
     /// </summary>
     public sealed class XmlParser : WowPacketParser
     {
-        static readonly Dictionary<PacketSender, Dictionary<WowOpcodes, XmlPacketDefinition>> Definitions
-            = new Dictionary<PacketSender, Dictionary<WowOpcodes, XmlPacketDefinition>>();
+        static readonly Dictionary<PacketSender, SortedDictionary<WowOpcodes, XmlPacketDefinition>> Definitions
+            = new Dictionary<PacketSender, SortedDictionary<WowOpcodes, XmlPacketDefinition>>();
 
         static bool s_initialized = false;
         static object s_lock = new object();
@@ -21,7 +21,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic
         internal static void Initialize()
         {
             foreach (PacketSender type in Enum.GetValues(typeof(PacketSender)))
-                Definitions.Add(type, new Dictionary<WowOpcodes, XmlPacketDefinition>());
+                Definitions.Add(type, new SortedDictionary<WowOpcodes, XmlPacketDefinition>());
 
             var streams = new List<Stream>(100);
             var filenames = new List<string>(100);
