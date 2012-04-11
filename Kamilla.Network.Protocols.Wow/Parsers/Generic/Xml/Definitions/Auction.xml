@@ -3,7 +3,7 @@
 
   <Packet Opcode="SMSG_AUCTION_LIST_RESULT" Group="Auction">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>AuctionListResult</SegmentType>
     </Simple>
   </Packet>

@@ -70,7 +70,7 @@
 
   <Packet Opcode="CMSG_GUILD_GET_ROSTER" Group="Queries">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>GuildRosterRequest</SegmentType>
     </Simple>
   </Packet>
@@ -432,7 +432,7 @@
 
   <Packet Opcode="CMSG_GUILD_GET_RANKS" Group="Queries">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>GuildRanksRequest</SegmentType>
     </Simple>
   </Packet>
@@ -486,7 +486,7 @@
 
   <Packet Opcode="CMSG_REQUEST_GUILD_PARTY_STATE" Group="Queries">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>GuildUpdatePartyState</SegmentType>
     </Simple>
   </Packet>
@@ -542,7 +542,7 @@
 
   <Packet Opcode="CMSG_GUILD_QUERY_NEWS" Group="Queries">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>GuildQueryNews</SegmentType>
     </Simple>
   </Packet>

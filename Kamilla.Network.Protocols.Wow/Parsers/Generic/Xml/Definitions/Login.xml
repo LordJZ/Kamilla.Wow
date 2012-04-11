@@ -129,7 +129,7 @@
 
   <Packet Opcode="CMSG_PLAYER_LOGIN">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>PlayerLogin</SegmentType>
     </Simple>
   </Packet>
@@ -178,7 +178,7 @@
 
   <Packet Opcode="SMSG_AUTH_CHALLENGE">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>AuthChallenge</SegmentType>
     </Simple>
   </Packet>

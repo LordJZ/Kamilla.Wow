@@ -272,7 +272,7 @@
       <Opcode>SMSG_AURA_UPDATE_ALL</Opcode>
     </Opcodes>
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>AuraUpdate</SegmentType>
     </Simple>
   </Packet>

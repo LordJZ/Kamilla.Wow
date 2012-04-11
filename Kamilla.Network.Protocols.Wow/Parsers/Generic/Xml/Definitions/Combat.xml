@@ -3,28 +3,28 @@
 
   <Packet Opcode="SMSG_HIGHEST_THREAT_UPDATE">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>ThreatHighestUpdate</SegmentType>
     </Simple>
   </Packet>
 
   <Packet Opcode="SMSG_THREAT_UPDATE">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>ThreatUpdate</SegmentType>
     </Simple>
   </Packet>
 
   <Packet Opcode="SMSG_THREAT_CLEAR">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>ThreatClear</SegmentType>
     </Simple>
   </Packet>
 
   <Packet Opcode="SMSG_THREAT_REMOVE">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>ThreatRemove</SegmentType>
     </Simple>
   </Packet>

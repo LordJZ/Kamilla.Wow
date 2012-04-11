@@ -758,7 +758,7 @@
 
   <Packet Opcode="SMSG_PHASE_SHIFT_CHANGE">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>SetPhaseShift</SegmentType>
     </Simple>
   </Packet>

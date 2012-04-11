@@ -35,21 +35,21 @@
 
   <Packet Opcode="CMSG_DF_JOIN" Group="LookingForGroup">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>LFGJoin</SegmentType>
     </Simple>
   </Packet>
 
   <Packet Opcode="SMSG_LFG_UPDATE_PLAYER" Group="LookingForGroup">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>LFGUpdatePlayer</SegmentType>
     </Simple>
   </Packet>
 
   <Packet Opcode="SMSG_LFG_PROPOSAL_UPDATE" Group="LookingForGroup">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>LFGProposalUpdate</SegmentType>
     </Simple>
   </Packet>
