@@ -82,7 +82,7 @@
 
   <Packet Opcode="SMSG_UPDATE_OBJECT" Group="ObjectUpdates">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>UpdateData</SegmentType>
     </Simple>
   </Packet>

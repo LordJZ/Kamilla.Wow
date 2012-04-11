@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Kamilla.Network.Protocols.Wow.OpcodeDatas;
+using Kamilla.Network.Protocols.Wow.ObjectPackets;
 
 namespace Kamilla.Network.Protocols.Wow.Game
 {

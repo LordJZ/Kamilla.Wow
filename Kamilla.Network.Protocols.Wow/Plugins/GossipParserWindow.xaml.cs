@@ -16,7 +16,7 @@ using Kamilla.CodeHighlighting;
 using Kamilla.IO;
 using Kamilla.Network.Logging;
 using Kamilla.Network.Protocols.Wow.Game;
-using Kamilla.Network.Protocols.Wow.OpcodeDatas;
+using Kamilla.Network.Protocols.Wow.ObjectPackets;
 using Kamilla.Network.Protocols.Wow.Parsers.Gossip;
 using Kamilla.Network.Protocols.Wow.Parsers.Queries;
 using Kamilla.Network.Viewing;

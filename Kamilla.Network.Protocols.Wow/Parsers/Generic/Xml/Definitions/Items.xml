@@ -15,7 +15,7 @@
   
   <Packet Opcode="CMSG_USE_ITEM">
     <Simple>
-      <Type>OpcodeData</Type>
+      <Type>ObjectPacket</Type>
       <SegmentType>UseItem</SegmentType>
     </Simple>
   </Packet>
