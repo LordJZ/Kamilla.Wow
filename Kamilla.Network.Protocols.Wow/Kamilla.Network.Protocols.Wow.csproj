@@ -167,7 +167,7 @@
     <Compile Include="ObjectPackets\GuildRosterRequest.cs" />
     <Compile Include="ObjectPackets\GuildUpdatePartyState.cs" />
     <Compile Include="ObjectPackets\IChange.cs" />
-    <Compile Include="ObjectPackets\IOpcodeData.cs" />
+    <Compile Include="ObjectPackets\IObjectPacket.cs" />
     <Compile Include="ObjectPackets\IValueChange.cs" />
     <Compile Include="ObjectPackets\LazyOpcodeData.cs" />
     <Compile Include="ObjectPackets\LFG.cs" />
