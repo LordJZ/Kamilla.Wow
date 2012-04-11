@@ -1,4 +1,4 @@
-﻿using Kamilla.Network.Protocols.Wow.OpcodeDatas.ChatMessages;
+﻿using Kamilla.Network.Protocols.Wow.ObjectPackets.ChatMessages;
 using Kamilla.Network.Protocols.Wow.Game;
 
 namespace Kamilla.Network.Protocols.Wow.Parsers.Chat

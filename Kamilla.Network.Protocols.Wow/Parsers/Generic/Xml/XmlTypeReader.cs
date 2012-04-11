@@ -66,7 +66,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic.Xml
         TimeSpanUntil,
         TimeSpanMinutesUntil,
 
-        OpcodeData,
+        ObjectPacket,
     }
 
     static class XmlTypeReader
@@ -123,7 +123,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic.Xml
             RegisterReader(XmlTypes.TimeSpanUntil, (x) => TimeSpanUntilFormatter(x.ReadUInt32()));
             RegisterReader(XmlTypes.TimeSpanMinutesUntil, (x) => TimeSpanUntilFormatter(x.ReadUInt32()*60));
 
-            RegisterReader(XmlTypes.OpcodeData, (x) => { throw new Exception(); });
+            RegisterReader(XmlTypes.ObjectPacket, (x) => { throw new Exception(); });
         }
 
         public static string Read(StreamHandler reader, XmlTypes type)

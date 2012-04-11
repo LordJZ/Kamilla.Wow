@@ -1,4 +1,4 @@
-﻿using Kamilla.Network.Protocols.Wow.OpcodeDatas;
+﻿using Kamilla.Network.Protocols.Wow.ObjectPackets;
 using Kamilla.Network.Protocols.Wow.Game;
 
 namespace Kamilla.Network.Protocols.Wow.Parsers.Lobby

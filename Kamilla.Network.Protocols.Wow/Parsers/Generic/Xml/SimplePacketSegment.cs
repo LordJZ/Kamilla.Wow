@@ -3,7 +3,7 @@ using System.IO;
 using Kamilla.IO;
 using System.Reflection;
 using Kamilla;
-using Kamilla.Network.Protocols.Wow.OpcodeDatas;
+using Kamilla.Network.Protocols.Wow.ObjectPackets;
 
 namespace Kamilla.Network.Protocols.Wow.Parsers.Generic.Xml
 {
@@ -25,7 +25,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic.Xml
         {
             Type T = null;
 
-            if (SimpleType != XmlTypes.OpcodeData)
+            if (SimpleType != XmlTypes.ObjectPacket)
                 Value = XmlTypeReader.Read(Reader, SimpleType);
 
             if (!String.IsNullOrEmpty(this.EnumName))
@@ -40,7 +40,7 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic.Xml
                     // base assembly, base namespace
                     nameSpace + ".{0}, " + ProjectInformation.Title + ".Wow",
                     // this assembly, opcodedatas namaspace
-                    nameSpace + ".OpcodeDatas.{0}, " + assemblyName,
+                    nameSpace + ".ObjectPackets.{0}, " + assemblyName,
                     // this assembly, base namespace
                     nameSpace + ".{0}, " + assemblyName,
                 };
@@ -56,22 +56,22 @@ namespace Kamilla.Network.Protocols.Wow.Parsers.Generic.Xml
                 if (T == null)
                     throw new Exception("Type " + this.EnumName + " cannot be found.");
 
-                if (SimpleType == XmlTypes.OpcodeData)
+                if (SimpleType == XmlTypes.ObjectPacket)
                 {
-                    if (T.GetInterface(typeof(IOpcodeData).Name) == null)
-                        throw new Exception("Type " + T + " does not implement IOpcodeData interface.");
+                    if (T.GetInterface(typeof(IObjectPacket).Name) == null)
+                        throw new Exception("Type " + T + " does not implement IObjectPacket interface.");
 
-                    IOpcodeData data = null;
+                    IObjectPacket data = null;
 
                     try
                     {
-                        data = (IOpcodeData)Activator.CreateInstance(T, Reader, true);
+                        data = (IObjectPacket)Activator.CreateInstance(T, Reader, true);
                     }
                     catch (MissingMethodException)
                     {
                         try
                         {
-                            data = (IOpcodeData)Activator.CreateInstance(T);
+                            data = (IObjectPacket)Activator.CreateInstance(T);
                         }
                         catch (MissingMethodException)
                         {
